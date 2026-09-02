@@ -527,7 +527,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gbr_30mm/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -662,25 +662,25 @@
         "uuid": "f1f61f9b-48be-407e-8c80-4ca72006850a"
       }
     ],
-    "used_designators": "C7",
+    "used_designators": "C6-8",
     "variants": []
   },
   "sheets": [
     [
       "f1f61f9b-48be-407e-8c80-4ca72006850a",
-      "sVNS_16chan_square_board"
+      "sVNS_15chan_circular_antenna_board"
     ],
     [
       "710b6e3c-e58e-47b5-b7cc-eafffd7d7052",
-      "sVNS_16chan_square_board_1"
+      "sVNS_16chan_circular_antenna_board_1"
     ],
     [
       "86f61fa9-dc55-4b1e-911c-0f28f8517618",
-      "sVNS_16chan_square_board_2"
+      "sVNS_16chan_circular_antenna_board_2"
     ],
     [
       "b1c2bb36-7672-42a8-ad22-d0854a0c0794",
-      "sVNS_16chan_square_board_3"
+      "sVNS_16chan_circular_antenna_board_3"
     ]
   ],
   "text_variables": {},
