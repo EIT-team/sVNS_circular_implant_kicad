@@ -206,7 +206,7 @@
 			)
 		)
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/2528e9c1-fe52-4b90-9dab-4d4fb198ad57")
-		(sheetname "/sVNS_16chan_square_board_2/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
 		(units
 			(unit
@@ -214,7 +214,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -394,7 +393,7 @@
 			)
 		)
 		(path "/b1c2bb36-7672-42a8-ad22-d0854a0c0794/cef7e0a7-5bcb-4d18-91cd-114e9b9e730f")
-		(sheetname "/sVNS_16chan_square_board_3/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_3/")
 		(sheetfile "sVNS_16chan_square_board_3.kicad_sch")
 		(units
 			(unit
@@ -402,7 +401,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -526,32 +524,35 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "sVNS_16chan_square_board:C0603_334"
 		(layer "F.Cu")
 		(uuid "1e95a3ae-dd04-4c93-8b57-a36ba83ea21d")
 		(at 148.5 89.5)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
-		(tags "capacitor handsolder")
+		(descr "CAPACITOR")
 		(property "Reference" "C7"
-			(at 0 -1.43 0)
+			(at -0.635 -0.635 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e5146b8f-26c9-4d8d-a592-1d08001de0e6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "EMPTY"
-			(at 4 0 0)
+		(property "Value" "15"
+			(at -0.635 1.905 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "fcb0156f-280a-4961-8d5e-28ad9a3c4838")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
@@ -562,10 +563,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAPACITOR, European symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -573,109 +575,141 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2834c1e4-9787-4fd0-85bd-b731669b11d2")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/1d23a8e1-4976-4a94-ae88-7ac3f7ae6717")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
-		(attr smd)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.146267 -0.51)
-			(end 0.146267 -0.51)
+		(fp_poly
+			(pts
+				(xy -0.1999 0.3) (xy 0.1999 0.3) (xy 0.1999 -0.3) (xy -0.1999 -0.3)
+			)
 			(stroke
-				(width 0.12)
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Adhes")
+			(uuid "98c51247-9c64-4121-9574-68555f570089")
+		)
+		(fp_line
+			(start -1.473 -0.983)
+			(end 1.473 -0.983)
+			(stroke
+				(width 0.0508)
 				(type solid)
 			)
-			(layer "F.SilkS")
+			(layer "F.CrtYd")
 			(uuid "40560eec-afa4-4569-b2bf-3743adbee688")
 		)
 		(fp_line
-			(start -0.146267 0.51)
-			(end 0.146267 0.51)
+			(start -1.473 0.983)
+			(end -1.473 -0.983)
 			(stroke
-				(width 0.12)
+				(width 0.0508)
 				(type solid)
 			)
-			(layer "F.SilkS")
+			(layer "F.CrtYd")
 			(uuid "4ea7787e-6e08-4e2a-bf9d-1151faf7b167")
 		)
-		(fp_rect
-			(start -1.65 -0.73)
-			(end 1.65 0.73)
+		(fp_line
+			(start 1.473 -0.983)
+			(end 1.473 0.983)
 			(stroke
-				(width 0.05)
+				(width 0.0508)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "66b5323f-bb70-4617-98d7-3d45e4d1201c")
+			(uuid "f39ca9fb-7f86-424d-8871-635f26339f01")
 		)
-		(fp_rect
-			(start -0.8 -0.4)
-			(end 0.8 0.4)
+		(fp_line
+			(start 1.473 0.983)
+			(end -1.473 0.983)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "966f750f-71a2-47fb-868a-149f0d4d64d0")
+			(layer "F.CrtYd")
+			(uuid "36e04c55-0f0a-492b-a89b-00b1d4ffd611")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "311cf7a5-bc4f-4f34-a0c6-5081fb390cbd")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
+		(fp_line
+			(start -0.356 -0.432)
+			(end 0.356 -0.432)
+			(stroke
+				(width 0.1016)
+				(type solid)
 			)
+			(layer "F.Fab")
+			(uuid "69d886d4-1ac1-454e-ad00-b6d5b8e3c99a")
 		)
-		(pad "1" smd roundrect
-			(at -0.8625 0)
-			(size 1.075 0.95)
+		(fp_line
+			(start -0.356 0.419)
+			(end 0.356 0.419)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0ffe99dc-a337-44ce-964f-8929f141361e")
+		)
+		(fp_poly
+			(pts
+				(xy -0.8382 0.4699) (xy -0.3381 0.4699) (xy -0.3381 -0.4801) (xy -0.8382 -0.4801)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "eaae32a5-82d4-474f-ab0e-50ccc4640879")
+		)
+		(fp_poly
+			(pts
+				(xy 0.3302 0.4699) (xy 0.8303 0.4699) (xy 0.8303 -0.4801) (xy 0.3302 -0.4801)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "1b66a8d0-513f-4867-a4d4-766145b3167d")
+		)
+		(pad "1" smd rect
+			(at -0.85 0)
+			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
 			(net "Net-(U1-LA)")
+			(pinfunction "1_1")
 			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(solder_paste_margin 0)
+			(thermal_bridge_angle 0)
 			(uuid "eb4c80cf-7f23-423f-b0d6-a5027f63ada5")
 		)
-		(pad "2" smd roundrect
-			(at 0.8625 0)
-			(size 1.075 0.95)
+		(pad "2" smd rect
+			(at 0.85 0)
+			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
 			(net "Net-(U1-LA)")
+			(pinfunction "2_2")
 			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(solder_paste_margin 0)
+			(thermal_bridge_angle 0)
 			(uuid "776a7d67-5666-4c90-813f-19404d3f6c13")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "sVNS_16chan_square_board:SON45P200X200X80-9N"
 		(layer "F.Cu")
@@ -731,7 +765,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/3d225f3e-c713-4c08-be03-6ae17bbd2288")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -905,7 +939,7 @@
 			(at 0.95 0.225)
 			(size 0.8 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/CAP")
+			(net "/sVNS_16chan_circular_antenna_board_1/CAP")
 			(pinfunction "CAP_6")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -929,7 +963,7 @@
 			(at 0.95 -0.675)
 			(size 0.8 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/FBP")
+			(net "/sVNS_16chan_circular_antenna_board_1/FBP")
 			(pinfunction "FBP_8")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -1007,7 +1041,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/090ea7d4-9f54-4630-b113-5860861513bc")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -1015,7 +1049,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -1129,7 +1162,7 @@
 			(at 0.85 0)
 			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/FBP")
+			(net "/sVNS_16chan_circular_antenna_board_1/FBP")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -1193,7 +1226,7 @@
 			)
 		)
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/a1d23553-a90d-463f-9527-293188dd9df3")
-		(sheetname "/sVNS_16chan_square_board_2/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
 		(units
 			(unit
@@ -1382,7 +1415,7 @@
 			(at -2 1)
 			(size 0.75 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_2/I_OUT-")
+			(net "/sVNS_16chan_circular_antenna_board_2/I_OUT-")
 			(pinfunction "S2B_7")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -1526,7 +1559,7 @@
 			(at 2 0.6)
 			(size 0.75 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_2/I_OUT-")
+			(net "/sVNS_16chan_circular_antenna_board_2/I_OUT-")
 			(pinfunction "S3A_19")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -1622,7 +1655,7 @@
 			(at 0.6 -2 90)
 			(size 0.75 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_2/DA")
+			(net "/sVNS_16chan_circular_antenna_board_2/DA")
 			(pinfunction "DA_27")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -1704,7 +1737,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "sVNS_16chan_square_board:1X01_325"
+	(footprint "sVNS_16chan_lib:1X01"
 		(layer "F.Cu")
 		(uuid "224ce4e1-e354-4147-917b-f618ce1a4ae1")
 		(at 144.5 93.5)
@@ -1716,8 +1749,8 @@
 			(uuid "7c045345-7a9e-446f-b80c-edf41aad247c")
 			(effects
 				(font
-					(size 1.1557 1.1557)
-					(thickness 0.1143)
+					(size 1.143 1.143)
+					(thickness 0.127)
 				)
 				(justify left bottom)
 			)
@@ -1726,12 +1759,11 @@
 			(at -1.27 3.175 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "49039aa0-dc17-4b36-87ac-e89d03fbece0")
 			(effects
 				(font
-					(size 1.176528 1.176528)
-					(thickness 0.093472)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
 				(justify left bottom)
 			)
@@ -1744,7 +1776,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1756,12 +1787,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/14fa9b0d-9aa9-4e26-8835-3a4edd0c2a53")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -1769,88 +1799,7 @@
 				(pins "1")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.27 -0.635)
-			(end -1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4dbacd57-6308-49e6-b192-7632372ca33c")
-		)
-		(fp_line
-			(start -1.27 0.635)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cde559ba-d0c9-4dd7-b5f9-7e82ab0b7519")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end -1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fe5c624e-fe12-47e4-a5a2-cb2d7a44d19c")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end 0.635 -1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "31604969-9911-4008-8bc8-389c4e066208")
-		)
-		(fp_line
-			(start 0.635 -1.27)
-			(end 1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "202e6185-49b3-41d2-826f-77881ebbbec0")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ba8cbf39-a908-4f39-8257-c1e42964d99d")
-		)
-		(fp_line
-			(start 1.27 -0.635)
-			(end 1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "662dd793-e22b-414f-b6f5-008bca70e77c")
-		)
-		(fp_line
-			(start 1.27 0.635)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "db022eb1-0cf5-4b71-a998-905602ba4f46")
-		)
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -1881,7 +1830,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "sVNS_16chan_square_board:1X01_325"
+	(footprint "sVNS_16chan_lib:1X01"
 		(layer "F.Cu")
 		(uuid "257073b4-4466-438f-9fc4-581e21630d4f")
 		(at 21.5111 124.5236)
@@ -1893,8 +1842,8 @@
 			(uuid "043f5c4d-63b6-41d4-b68a-0c2577176b4a")
 			(effects
 				(font
-					(size 1.1557 1.1557)
-					(thickness 0.1143)
+					(size 1.143 1.143)
+					(thickness 0.127)
 				)
 				(justify left bottom)
 			)
@@ -1906,8 +1855,8 @@
 			(uuid "c3cffe30-0b8b-477c-a17a-f6aa0753b6fc")
 			(effects
 				(font
-					(size 1.176528 1.176528)
-					(thickness 0.093472)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
 				(justify left bottom)
 			)
@@ -1920,7 +1869,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1932,12 +1880,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/9389eaab-4417-4249-bd44-909e83e38115")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -1945,88 +1892,7 @@
 				(pins "1")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.27 -0.635)
-			(end -1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2e51515d-444b-4173-8b91-d6c00ecf119d")
-		)
-		(fp_line
-			(start -1.27 0.635)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f068a9de-279a-4b64-a542-e0b8a48d3074")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end -1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96532444-e6d8-4dae-8734-e3cbd1e8e846")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end 0.635 -1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e93d7b53-a712-4dc4-8bea-676dd8adc275")
-		)
-		(fp_line
-			(start 0.635 -1.27)
-			(end 1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c3e74682-b3ba-4055-9a6b-ef2e6e4067f8")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dbb82851-e333-4897-a032-b9371f3a841d")
-		)
-		(fp_line
-			(start 1.27 -0.635)
-			(end 1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c0a86704-ebad-48ca-a879-8e1d59588508")
-		)
-		(fp_line
-			(start 1.27 0.635)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7443d367-90d1-4de1-a1c7-5645e8ad8e2b")
-		)
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -2048,7 +1914,7 @@
 			(roundrect_rratio 0.25)
 			(chamfer_ratio 0.2928932188)
 			(chamfer top_left top_right bottom_left bottom_right)
-			(net "/sVNS_16chan_square_board_1/P2.7_{slash}_C2D")
+			(net "/sVNS_16chan_circular_antenna_board_1/P2.7_{slash}_C2D")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -2111,7 +1977,7 @@
 			)
 		)
 		(path "/b1c2bb36-7672-42a8-ad22-d0854a0c0794/9dae1385-4516-4b63-b74d-d6099be24c0b")
-		(sheetname "/sVNS_16chan_square_board_3/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_3/")
 		(sheetfile "sVNS_16chan_square_board_3.kicad_sch")
 		(units
 			(unit
@@ -2244,7 +2110,7 @@
 			(at -5.715 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S10A_11")
+			(net "/sVNS_16chan_circular_antenna_board_3/S10A_11")
 			(pinfunction "1_1")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2256,7 +2122,7 @@
 			(at -4.445 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S13A_30")
+			(net "/sVNS_16chan_circular_antenna_board_3/S13A_30")
 			(pinfunction "2_2")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2268,7 +2134,7 @@
 			(at -3.175 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S7A_12")
+			(net "/sVNS_16chan_circular_antenna_board_3/S7A_12")
 			(pinfunction "3_3")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2280,7 +2146,7 @@
 			(at -1.905 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S4A_13")
+			(net "/sVNS_16chan_circular_antenna_board_3/S4A_13")
 			(pinfunction "4_4")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2292,7 +2158,7 @@
 			(at -0.635 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S1A_14")
+			(net "/sVNS_16chan_circular_antenna_board_3/S1A_14")
 			(pinfunction "5_5")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2304,7 +2170,7 @@
 			(at 0.635 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S3B_15")
+			(net "/sVNS_16chan_circular_antenna_board_3/S3B_15")
 			(pinfunction "6_6")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2316,7 +2182,7 @@
 			(at 1.905 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S6B_16")
+			(net "/sVNS_16chan_circular_antenna_board_3/S6B_16")
 			(pinfunction "7_7")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2328,7 +2194,7 @@
 			(at 3.175 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S15B_17")
+			(net "/sVNS_16chan_circular_antenna_board_3/S15B_17")
 			(pinfunction "8_8")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2340,7 +2206,7 @@
 			(at 4.445 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S11B_18")
+			(net "/sVNS_16chan_circular_antenna_board_3/S11B_18")
 			(pinfunction "9_9")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2352,7 +2218,7 @@
 			(at 5.715 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S16B_19")
+			(net "/sVNS_16chan_circular_antenna_board_3/S16B_19")
 			(pinfunction "10_10")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -2362,7 +2228,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "sVNS_16chan_square_board:1X01_325"
+	(footprint "sVNS_16chan_lib:1X01"
 		(layer "F.Cu")
 		(uuid "2ab4bea1-76e9-434d-a479-b1df98bf4220")
 		(at 26.5911 124.5236)
@@ -2374,8 +2240,8 @@
 			(uuid "1af145a4-d613-4c1a-abb4-707a94057fab")
 			(effects
 				(font
-					(size 1.1557 1.1557)
-					(thickness 0.1143)
+					(size 1.143 1.143)
+					(thickness 0.127)
 				)
 				(justify left bottom)
 			)
@@ -2387,8 +2253,8 @@
 			(uuid "360ef286-96a0-4fba-b46c-63bd1ee94dcf")
 			(effects
 				(font
-					(size 1.176528 1.176528)
-					(thickness 0.093472)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
 				(justify left bottom)
 			)
@@ -2401,7 +2267,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2413,12 +2278,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/579b54b4-73fc-41de-9367-554cd4d73b45")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -2426,88 +2290,7 @@
 				(pins "1")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.27 -0.635)
-			(end -1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d91870af-8b39-43d7-801e-40d2cf934562")
-		)
-		(fp_line
-			(start -1.27 0.635)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8fddea08-68cf-41d9-ab76-9a6c4731e0eb")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end -1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b74fbc84-70a4-45b4-b546-96d7a15c8725")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end 0.635 -1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4f062c7e-427d-44e6-b75d-ca982cb2c13e")
-		)
-		(fp_line
-			(start 0.635 -1.27)
-			(end 1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bacd2e54-9a2f-4f39-b796-0bf659dcf980")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "65dda49c-d77c-48ae-8ec8-358095887b15")
-		)
-		(fp_line
-			(start 1.27 -0.635)
-			(end 1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0a8090f3-3334-476a-9e48-e8c094bd27cf")
-		)
-		(fp_line
-			(start 1.27 0.635)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3f893cfb-d42c-40bb-99da-d8f8deb469db")
-		)
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -2594,7 +2377,7 @@
 			)
 		)
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/8d14d41b-b28b-472a-97c6-26062db24648")
-		(sheetname "/sVNS_16chan_square_board_2/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
 		(units
 			(unit
@@ -2602,7 +2385,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -2704,7 +2486,7 @@
 			(at -0.85 0)
 			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_2/DA")
+			(net "/sVNS_16chan_circular_antenna_board_2/DA")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -2782,7 +2564,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/f26ea0ea-01bf-42f2-86c0-359a5f7b7650")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -2790,7 +2572,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -5573,7 +5354,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/fec3a75c-7a59-40ec-87d3-73cf678f92d1")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -5581,7 +5362,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -5761,7 +5541,7 @@
 			)
 		)
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/c23bc527-7803-405f-8a3d-64912cf83e06")
-		(sheetname "/sVNS_16chan_square_board_2/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
 		(units
 			(unit
@@ -5769,7 +5549,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -5893,7 +5672,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "sVNS_16chan_square_board:1X01_325"
+	(footprint "sVNS_16chan_lib:1X01"
 		(layer "F.Cu")
 		(uuid "3ec1fb4d-1986-4ac5-8311-1b10ad11c5e6")
 		(at 16.4311 124.5236)
@@ -5905,8 +5684,8 @@
 			(uuid "0d770aa0-ba36-469f-90d0-5a8f9eb0639d")
 			(effects
 				(font
-					(size 1.1557 1.1557)
-					(thickness 0.1143)
+					(size 1.143 1.143)
+					(thickness 0.127)
 				)
 				(justify left bottom)
 			)
@@ -5918,8 +5697,8 @@
 			(uuid "68bd0062-1439-4c9f-8798-d071c6a003fe")
 			(effects
 				(font
-					(size 1.176528 1.176528)
-					(thickness 0.093472)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
 				(justify left bottom)
 			)
@@ -5932,7 +5711,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5944,12 +5722,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/dafdd5ee-cf1c-4eb2-afaf-fa6b07599794")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -5957,88 +5734,7 @@
 				(pins "1")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.27 -0.635)
-			(end -1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6cbde3a9-de34-4e34-a037-8e6050e724de")
-		)
-		(fp_line
-			(start -1.27 0.635)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "04b9dedd-1d72-4f1e-86be-43d7e041362f")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end -1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "41fb46ef-c2fc-4793-b260-2eadb95bc9a1")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end 0.635 -1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "93675771-b4e1-4b71-8859-a5a681a35fe3")
-		)
-		(fp_line
-			(start 0.635 -1.27)
-			(end 1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "40f0ff58-f891-41a6-b14b-e68d32e5746f")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fc2625a8-a1c0-43af-b9e5-0d8159307a98")
-		)
-		(fp_line
-			(start 1.27 -0.635)
-			(end 1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e3043f79-027f-4b7c-a16d-a0fa9a1a31ba")
-		)
-		(fp_line
-			(start 1.27 0.635)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c5b0921d-e055-4bd2-b4a6-127ed1e5cdc8")
-		)
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -6060,7 +5756,7 @@
 			(roundrect_rratio 0.25)
 			(chamfer_ratio 0.2928932188)
 			(chamfer top_left top_right bottom_left bottom_right)
-			(net "/sVNS_16chan_square_board_1/RSTB_{slash}_C2CK")
+			(net "/sVNS_16chan_circular_antenna_board_1/RSTB_{slash}_C2CK")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -6124,7 +5820,7 @@
 			)
 		)
 		(path "/b1c2bb36-7672-42a8-ad22-d0854a0c0794/c82b7bec-b3d7-4393-b4d1-9efbea4e5204")
-		(sheetname "/sVNS_16chan_square_board_3/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_3/")
 		(sheetfile "sVNS_16chan_square_board_3.kicad_sch")
 		(units
 			(unit
@@ -6279,7 +5975,7 @@
 			(at -1.925 -1.400003 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S16A_1")
+			(net "/sVNS_16chan_circular_antenna_board_3/S16A_1")
 			(pinfunction "S16_1")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6291,7 +5987,7 @@
 			(at -1.925 -1 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S15A_2")
+			(net "/sVNS_16chan_circular_antenna_board_3/S15A_2")
 			(pinfunction "S15_2")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6303,7 +5999,7 @@
 			(at -1.925 -0.6 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S14A")
+			(net "/sVNS_16chan_circular_antenna_board_3/S14A")
 			(pinfunction "S14_3")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6315,7 +6011,7 @@
 			(at -1.925 -0.200003 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S13A_30")
+			(net "/sVNS_16chan_circular_antenna_board_3/S13A_30")
 			(pinfunction "S13_4")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6327,7 +6023,7 @@
 			(at -1.925 0.2 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S12A_25")
+			(net "/sVNS_16chan_circular_antenna_board_3/S12A_25")
 			(pinfunction "S12_5")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6339,7 +6035,7 @@
 			(at -1.925 0.6 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S11A_20")
+			(net "/sVNS_16chan_circular_antenna_board_3/S11A_20")
 			(pinfunction "S11_6")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6351,7 +6047,7 @@
 			(at -1.925 0.999996 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S10A_11")
+			(net "/sVNS_16chan_circular_antenna_board_3/S10A_11")
 			(pinfunction "S10_7")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6363,7 +6059,7 @@
 			(at -1.925 1.4 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S9A_6")
+			(net "/sVNS_16chan_circular_antenna_board_3/S9A_6")
 			(pinfunction "S9_8")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6471,7 +6167,7 @@
 			(at 1.925 1.4 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S1A_14")
+			(net "/sVNS_16chan_circular_antenna_board_3/S1A_14")
 			(pinfunction "S1_17")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6483,7 +6179,7 @@
 			(at 1.925 0.999996 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S2A_8")
+			(net "/sVNS_16chan_circular_antenna_board_3/S2A_8")
 			(pinfunction "S2_18")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6495,7 +6191,7 @@
 			(at 1.925 0.6 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S3A_3")
+			(net "/sVNS_16chan_circular_antenna_board_3/S3A_3")
 			(pinfunction "S3_19")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6507,7 +6203,7 @@
 			(at 1.925 0.2 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S4A_13")
+			(net "/sVNS_16chan_circular_antenna_board_3/S4A_13")
 			(pinfunction "S4_20")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6519,7 +6215,7 @@
 			(at 1.925 -0.200003 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S5A_26")
+			(net "/sVNS_16chan_circular_antenna_board_3/S5A_26")
 			(pinfunction "S5_21")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6531,7 +6227,7 @@
 			(at 1.925 -0.6 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S6A_21")
+			(net "/sVNS_16chan_circular_antenna_board_3/S6A_21")
 			(pinfunction "S6_22")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6543,7 +6239,7 @@
 			(at 1.925 -1 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S7A_12")
+			(net "/sVNS_16chan_circular_antenna_board_3/S7A_12")
 			(pinfunction "S7_23")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6555,7 +6251,7 @@
 			(at 1.925 -1.400003 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S8A_7")
+			(net "/sVNS_16chan_circular_antenna_board_3/S8A_7")
 			(pinfunction "S8_24")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -6731,7 +6427,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "80pF"
+		(property "Value" "22"
 			(at -0.635 1.905 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6756,7 +6452,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6768,8 +6464,8 @@
 				)
 			)
 		)
-		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/5feb787c-a86c-4490-8fb8-94f09d181e73")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/f825a2c4-c317-4a45-b39f-ce91e9b07032")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -6777,7 +6473,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -6955,7 +6650,7 @@
 			)
 		)
 		(path "/b1c2bb36-7672-42a8-ad22-d0854a0c0794/62ecf887-00ab-4f8a-8c3f-af4733950d3c")
-		(sheetname "/sVNS_16chan_square_board_3/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_3/")
 		(sheetfile "sVNS_16chan_square_board_3.kicad_sch")
 		(units
 			(unit
@@ -7088,7 +6783,7 @@
 			(at -5.715 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S16A_1")
+			(net "/sVNS_16chan_circular_antenna_board_3/S16A_1")
 			(pinfunction "1_1")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7100,7 +6795,7 @@
 			(at -4.445 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S11A_20")
+			(net "/sVNS_16chan_circular_antenna_board_3/S11A_20")
 			(pinfunction "2_2")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7112,7 +6807,7 @@
 			(at -3.175 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S15A_2")
+			(net "/sVNS_16chan_circular_antenna_board_3/S15A_2")
 			(pinfunction "3_3")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7124,7 +6819,7 @@
 			(at -1.905 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S6A_21")
+			(net "/sVNS_16chan_circular_antenna_board_3/S6A_21")
 			(pinfunction "4_4")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7136,7 +6831,7 @@
 			(at -0.635 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S3A_3")
+			(net "/sVNS_16chan_circular_antenna_board_3/S3A_3")
 			(pinfunction "5_5")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7148,7 +6843,7 @@
 			(at 0.635 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S1B_22")
+			(net "/sVNS_16chan_circular_antenna_board_3/S1B_22")
 			(pinfunction "6_6")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7160,7 +6855,7 @@
 			(at 1.905 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S4B_4")
+			(net "/sVNS_16chan_circular_antenna_board_3/S4B_4")
 			(pinfunction "7_7")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7172,7 +6867,7 @@
 			(at 3.175 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S7B_23")
+			(net "/sVNS_16chan_circular_antenna_board_3/S7B_23")
 			(pinfunction "8_8")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7184,7 +6879,7 @@
 			(at 4.445 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S13B_5")
+			(net "/sVNS_16chan_circular_antenna_board_3/S13B_5")
 			(pinfunction "9_9")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7196,7 +6891,7 @@
 			(at 5.715 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S10B_24")
+			(net "/sVNS_16chan_circular_antenna_board_3/S10B_24")
 			(pinfunction "10_10")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -7402,7 +7097,7 @@
 			)
 		)
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/f8e5bda3-3e3e-45bd-95ed-6419b4284617")
-		(sheetname "/sVNS_16chan_square_board_2/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
 		(units
 			(unit
@@ -7410,7 +7105,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -7524,7 +7218,7 @@
 			(at 0.85 0)
 			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_2/I_OUT-")
+			(net "/sVNS_16chan_circular_antenna_board_2/I_OUT-")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -7590,7 +7284,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/7dfbea94-8857-4630-8d1d-c30f244603c9")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -7598,7 +7292,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -7700,7 +7393,7 @@
 			(at -0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/P0.0_SMBUS0_SDA")
+			(net "/sVNS_16chan_circular_antenna_board_1/P0.0_SMBUS0_SDA")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -7778,7 +7471,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/416c3677-f302-4cb0-94a3-ee59656c7a4a")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -7786,7 +7479,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -7910,7 +7602,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "sVNS_16chan_square_board:1X01_325"
+	(footprint "sVNS_16chan_lib:1X01"
 		(layer "F.Cu")
 		(uuid "9a1cca32-e25b-4576-b964-eb9a46e23f0a")
 		(at 31.6711 124.5236)
@@ -7922,8 +7614,8 @@
 			(uuid "eeefb993-6cd3-4128-838e-abba2538f823")
 			(effects
 				(font
-					(size 1.1557 1.1557)
-					(thickness 0.1143)
+					(size 1.143 1.143)
+					(thickness 0.127)
 				)
 				(justify left bottom)
 			)
@@ -7935,8 +7627,8 @@
 			(uuid "06f356a2-b8fc-4897-90f9-00a0e3f47307")
 			(effects
 				(font
-					(size 1.176528 1.176528)
-					(thickness 0.093472)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
 				(justify left bottom)
 			)
@@ -7949,7 +7641,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7961,12 +7652,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/35e2cdd3-a5a9-45e3-8e04-b3dc801a027a")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -7974,88 +7664,7 @@
 				(pins "1")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.27 -0.635)
-			(end -1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "62219d9d-5e4c-4594-985e-ba88a1295757")
-		)
-		(fp_line
-			(start -1.27 0.635)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b3e722ab-13d4-4502-8c59-36904fe120f5")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end -1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "72bd0b31-14c6-4f82-b52e-881eb41bb51c")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end 0.635 -1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f283ffd2-a7b1-4524-8a86-b19bd67cc9a1")
-		)
-		(fp_line
-			(start 0.635 -1.27)
-			(end 1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5d78ebe7-d367-403d-aa35-bbca726241f0")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5eb81417-9497-487c-904e-3a422f159abf")
-		)
-		(fp_line
-			(start 1.27 -0.635)
-			(end 1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "589a870e-6e48-4396-905e-65d68c8ff00c")
-		)
-		(fp_line
-			(start 1.27 0.635)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ac788e56-bdb2-4940-9e6b-5cc437d5de8a")
-		)
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -8142,7 +7751,7 @@
 			)
 		)
 		(path "/b1c2bb36-7672-42a8-ad22-d0854a0c0794/7d0e0272-486a-45b7-bd7d-a25013397fff")
-		(sheetname "/sVNS_16chan_square_board_3/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_3/")
 		(sheetfile "sVNS_16chan_square_board_3.kicad_sch")
 		(units
 			(unit
@@ -8150,7 +7759,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -8274,7 +7882,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "sVNS_16chan_square_board:SOT65P210X110-5N"
+	(footprint "sVNScomponents:SOT65P210X110-5N"
 		(layer "F.Cu")
 		(uuid "a05234d1-de57-4afe-8b3f-396f8bd2df1a")
 		(at 26.5911 92.7736)
@@ -8286,8 +7894,8 @@
 			(uuid "3fe2c305-0153-4efc-8ac3-0c19ea717056")
 			(effects
 				(font
-					(size 1.176528 1.176528)
-					(thickness 0.093472)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
 			)
 		)
@@ -8298,8 +7906,8 @@
 			(uuid "742f942c-2ea6-42ef-9f16-d6a3a2a5f583")
 			(effects
 				(font
-					(size 1.176528 1.176528)
-					(thickness 0.093472)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
 			)
 		)
@@ -8311,7 +7919,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -8323,12 +7930,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/e74d63d6-069e-4024-badf-985f0636404c")
-		(sheetname "/sVNS_16chan_square_board_2/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
 		(units
 			(unit
@@ -8465,7 +8071,7 @@
 			(at -0.95 0.65)
 			(size 1.2 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_2/I_OUT-")
+			(net "/sVNS_16chan_circular_antenna_board_2/I_OUT-")
 			(pinfunction "IN-_3")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -8555,7 +8161,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/637584be-e749-4aa6-b866-f963d0d0af48")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -8563,7 +8169,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -8665,7 +8270,7 @@
 			(at -0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/FBP")
+			(net "/sVNS_16chan_circular_antenna_board_1/FBP")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -8743,7 +8348,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/a540585a-2b2f-470b-a463-2c2c342e6c60")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -8751,7 +8356,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -8865,7 +8469,7 @@
 			(at 0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/FBP")
+			(net "/sVNS_16chan_circular_antenna_board_1/FBP")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -8931,7 +8535,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/eb84fb96-7a5d-4dd6-a121-5d9fe07b62cb")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -8939,7 +8543,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -9053,7 +8656,7 @@
 			(at 0.85 0)
 			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/CAP")
+			(net "/sVNS_16chan_circular_antenna_board_1/CAP")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -9117,7 +8720,7 @@
 			)
 		)
 		(path "/b1c2bb36-7672-42a8-ad22-d0854a0c0794/aa9ebbf6-a64f-44e1-961f-34b5ad9338a5")
-		(sheetname "/sVNS_16chan_square_board_3/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_3/")
 		(sheetfile "sVNS_16chan_square_board_3.kicad_sch")
 		(units
 			(unit
@@ -9250,7 +8853,7 @@
 			(at -5.715 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S9A_6")
+			(net "/sVNS_16chan_circular_antenna_board_3/S9A_6")
 			(pinfunction "1_1")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9262,7 +8865,7 @@
 			(at -4.445 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S12A_25")
+			(net "/sVNS_16chan_circular_antenna_board_3/S12A_25")
 			(pinfunction "2_2")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9274,7 +8877,7 @@
 			(at -3.175 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S8A_7")
+			(net "/sVNS_16chan_circular_antenna_board_3/S8A_7")
 			(pinfunction "3_3")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9286,7 +8889,7 @@
 			(at -1.905 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S5A_26")
+			(net "/sVNS_16chan_circular_antenna_board_3/S5A_26")
 			(pinfunction "4_4")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9298,7 +8901,7 @@
 			(at -0.635 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S2A_8")
+			(net "/sVNS_16chan_circular_antenna_board_3/S2A_8")
 			(pinfunction "5_5")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9310,7 +8913,7 @@
 			(at 0.635 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S2B_27")
+			(net "/sVNS_16chan_circular_antenna_board_3/S2B_27")
 			(pinfunction "6_6")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9322,7 +8925,7 @@
 			(at 1.905 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S5B_9")
+			(net "/sVNS_16chan_circular_antenna_board_3/S5B_9")
 			(pinfunction "7_7")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9334,7 +8937,7 @@
 			(at 3.175 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S8B_28")
+			(net "/sVNS_16chan_circular_antenna_board_3/S8B_28")
 			(pinfunction "8_8")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9346,7 +8949,7 @@
 			(at 4.445 -1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S12B_10")
+			(net "/sVNS_16chan_circular_antenna_board_3/S12B_10")
 			(pinfunction "9_9")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9358,7 +8961,7 @@
 			(at 5.715 1.5 90)
 			(size 3 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S9B_29")
+			(net "/sVNS_16chan_circular_antenna_board_3/S9B_29")
 			(pinfunction "10_10")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -9424,7 +9027,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/bcd905e9-412a-457f-a01c-349bbd1bff6c")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -9432,7 +9035,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -9546,7 +9148,7 @@
 			(at 0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/P0.6_ADC")
+			(net "/sVNS_16chan_circular_antenna_board_1/P0.6_ADC")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -9612,7 +9214,7 @@
 			)
 		)
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/526b4cf0-772c-462e-adb3-6cbce61962eb")
-		(sheetname "/sVNS_16chan_square_board_2/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
 		(units
 			(unit
@@ -9620,7 +9222,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -9807,7 +9408,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/4d5552c6-1168-4f1f-8f8d-7abc600c7dac")
 		(sheetname "/sVNS_16chan_square_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
@@ -9958,7 +9558,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/e1e32a67-701a-4768-961f-5c65051b59b0")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -9966,7 +9566,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -10068,7 +9667,7 @@
 			(at -0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/RSTB_{slash}_C2CK")
+			(net "/sVNS_16chan_circular_antenna_board_1/RSTB_{slash}_C2CK")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -10146,7 +9745,7 @@
 			)
 		)
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/5a497739-2421-41b3-a12d-35e4ea9bbd09")
-		(sheetname "/sVNS_16chan_square_board_2/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
 		(units
 			(unit
@@ -10154,7 +9753,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -10256,7 +9854,7 @@
 			(at -0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_2/I_OUT-")
+			(net "/sVNS_16chan_circular_antenna_board_2/I_OUT-")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -10334,7 +9932,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/9e6ed715-acca-48e6-9f7e-c728cd4a930a")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -10342,7 +9940,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -10444,7 +10041,7 @@
 			(at -0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/P0.1_SMBUS0_SCL")
+			(net "/sVNS_16chan_circular_antenna_board_1/P0.1_SMBUS0_SCL")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -10463,6 +10060,193 @@
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "bee7e3b3-0462-4c49-9606-a819bd3f0c18")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "sVNS_16chan_square_board:C0603_334"
+		(layer "F.Cu")
+		(uuid "cba08fef-e8bf-4075-8a90-db4f1e5cc04d")
+		(at 67.9984 93.5084)
+		(descr "CAPACITOR")
+		(property "Reference" "C8"
+			(at -0.635 -0.635 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "66c5e041-791a-481b-8990-0eab73ac4034")
+			(effects
+				(font
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "do not populate"
+			(at -0.635 1.905 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "eb341a7c-7ef0-49a6-8634-f4f648762b18")
+			(effects
+				(font
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a54a941-5cfa-425e-bfdb-53bd8a4e0587")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "CAPACITOR, European symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "482393e1-19b7-423b-aa91-8c2459171e76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/38fc1fa6-0748-49df-a328-787c8de6e00e")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
+		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.1999 0.3) (xy 0.1999 0.3) (xy 0.1999 -0.3) (xy -0.1999 -0.3)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Adhes")
+			(uuid "52fc4102-b4a3-44e3-9937-e3bdf2e6bfb2")
+		)
+		(fp_line
+			(start -1.473 -0.983)
+			(end 1.473 -0.983)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a9c8b7e1-d0dd-4ec2-bb28-43db31a4a78c")
+		)
+		(fp_line
+			(start -1.473 0.983)
+			(end -1.473 -0.983)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f22e2f80-9dd5-4a9d-a46e-00c7c1a42795")
+		)
+		(fp_line
+			(start 1.473 -0.983)
+			(end 1.473 0.983)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2f352ca7-8aa9-4c43-a41e-c53e8a07a4cd")
+		)
+		(fp_line
+			(start 1.473 0.983)
+			(end -1.473 0.983)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "31c0b298-7c46-4506-b402-ca39671053d0")
+		)
+		(fp_line
+			(start -0.356 -0.432)
+			(end 0.356 -0.432)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "61808c08-29ab-4c5d-b2c3-32d4f64abfce")
+		)
+		(fp_line
+			(start -0.356 0.419)
+			(end 0.356 0.419)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a18cdd9f-f1ab-4533-9bf9-09b292fe956e")
+		)
+		(fp_poly
+			(pts
+				(xy -0.8382 0.4699) (xy -0.3381 0.4699) (xy -0.3381 -0.4801) (xy -0.8382 -0.4801)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "aff51abf-cdbc-4b21-85e7-ac92c81ecfa3")
+		)
+		(fp_poly
+			(pts
+				(xy 0.3302 0.4699) (xy 0.8303 0.4699) (xy 0.8303 -0.4801) (xy 0.3302 -0.4801)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "08d64227-f20d-49dc-967d-3fdff91a68d9")
+		)
+		(pad "1" smd rect
+			(at -0.85 0)
+			(size 1.1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U1-LA)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(solder_paste_margin 0)
+			(thermal_bridge_angle 0)
+			(uuid "e5f1f0c7-dc66-4b82-80cc-e5f8e587a794")
+		)
+		(pad "2" smd rect
+			(at 0.85 0)
+			(size 1.1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U1-LA)")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(solder_paste_margin 0)
+			(thermal_bridge_angle 0)
+			(uuid "739e1af6-b89d-432b-8e09-78311f5d1576")
 		)
 		(embedded_fonts no)
 	)
@@ -10522,7 +10306,7 @@
 			)
 		)
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/04ed1cfd-1a89-41ba-961b-b34cac7c97ed")
-		(sheetname "/sVNS_16chan_square_board_2/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
 		(units
 			(unit
@@ -10530,7 +10314,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -10644,7 +10427,7 @@
 			(at 0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_2/I_OUT-")
+			(net "/sVNS_16chan_circular_antenna_board_2/I_OUT-")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -10654,7 +10437,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "sVNS_16chan_square_board:1X01_325"
+	(footprint "sVNS_16chan_lib:1X01"
 		(layer "F.Cu")
 		(uuid "ce06b26d-bd92-4d1a-9832-23d8b721cba7")
 		(at 153.5 93.5)
@@ -10666,8 +10449,8 @@
 			(uuid "14378f2f-812c-4a10-a9e2-21397b4e4b21")
 			(effects
 				(font
-					(size 1.1557 1.1557)
-					(thickness 0.1143)
+					(size 1.143 1.143)
+					(thickness 0.127)
 				)
 				(justify left bottom)
 			)
@@ -10676,12 +10459,11 @@
 			(at -1.27 3.175 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "657e524a-d96e-4e70-9bf8-3a48c155f2b2")
 			(effects
 				(font
-					(size 1.176528 1.176528)
-					(thickness 0.093472)
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
 				)
 				(justify left bottom)
 			)
@@ -10694,7 +10476,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -10706,12 +10487,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/1a7b1f15-352e-4887-899f-5ccdbacaede9")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -10719,88 +10499,7 @@
 				(pins "1")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.27 -0.635)
-			(end -1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ad009551-d9d6-49bb-ab38-d7f0f2f83d57")
-		)
-		(fp_line
-			(start -1.27 0.635)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3e5e3c51-c869-41fd-8594-3be84b32502c")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end -1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7b4eaacd-5e18-4745-ad60-7c158e1c3e6e")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end 0.635 -1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cab8c6d7-eedb-4d1e-bee0-9598d788bbf7")
-		)
-		(fp_line
-			(start 0.635 -1.27)
-			(end 1.27 -0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cc725ab0-61f4-4db8-b9db-4c203a96a416")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8f191dd4-b6b1-4a91-9df7-0065f39ff7a8")
-		)
-		(fp_line
-			(start 1.27 -0.635)
-			(end 1.27 0.635)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fc1522a5-e436-4fa6-980d-5a8f458f32a6")
-		)
-		(fp_line
-			(start 1.27 0.635)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "68c0b88d-b8a1-4c0d-84e3-6d2ea359c6ab")
-		)
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -10887,7 +10586,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/9a6669f4-23ae-402d-8d35-7b59aafb67f6")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -10895,7 +10594,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -10997,7 +10695,7 @@
 			(at -0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/P1.0_FD")
+			(net "/sVNS_16chan_circular_antenna_board_1/P1.0_FD")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -11075,7 +10773,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/49a61539-afad-4bad-b165-473b832f5314")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -11083,7 +10781,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -11263,7 +10960,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/fd28f73f-7f02-4003-9586-e0a8eff8c127")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -11271,7 +10968,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -11450,7 +11146,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/5ed1e8a7-0b2c-4f00-b28c-938d7d15786b")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -11630,7 +11326,7 @@
 			)
 		)
 		(path "/b1c2bb36-7672-42a8-ad22-d0854a0c0794/cbc2067b-fcc9-47c6-ae1c-9c318ac4a50e")
-		(sheetname "/sVNS_16chan_square_board_3/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_3/")
 		(sheetfile "sVNS_16chan_square_board_3.kicad_sch")
 		(units
 			(unit
@@ -11785,7 +11481,7 @@
 			(at -1.925 -1.400003 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S16B_19")
+			(net "/sVNS_16chan_circular_antenna_board_3/S16B_19")
 			(pinfunction "S16_1")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -11797,7 +11493,7 @@
 			(at -1.925 -1 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S15B_17")
+			(net "/sVNS_16chan_circular_antenna_board_3/S15B_17")
 			(pinfunction "S15_2")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -11809,7 +11505,7 @@
 			(at -1.925 -0.6 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S14B")
+			(net "/sVNS_16chan_circular_antenna_board_3/S14B")
 			(pinfunction "S14_3")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -11821,7 +11517,7 @@
 			(at -1.925 -0.200003 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S13B_5")
+			(net "/sVNS_16chan_circular_antenna_board_3/S13B_5")
 			(pinfunction "S13_4")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -11833,7 +11529,7 @@
 			(at -1.925 0.2 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S12B_10")
+			(net "/sVNS_16chan_circular_antenna_board_3/S12B_10")
 			(pinfunction "S12_5")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -11845,7 +11541,7 @@
 			(at -1.925 0.6 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S11B_18")
+			(net "/sVNS_16chan_circular_antenna_board_3/S11B_18")
 			(pinfunction "S11_6")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -11857,7 +11553,7 @@
 			(at -1.925 0.999996 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S10B_24")
+			(net "/sVNS_16chan_circular_antenna_board_3/S10B_24")
 			(pinfunction "S10_7")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -11869,7 +11565,7 @@
 			(at -1.925 1.4 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S9B_29")
+			(net "/sVNS_16chan_circular_antenna_board_3/S9B_29")
 			(pinfunction "S9_8")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -11977,7 +11673,7 @@
 			(at 1.925 1.4 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S1B_22")
+			(net "/sVNS_16chan_circular_antenna_board_3/S1B_22")
 			(pinfunction "S1_17")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -11989,7 +11685,7 @@
 			(at 1.925 0.999996 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S2B_27")
+			(net "/sVNS_16chan_circular_antenna_board_3/S2B_27")
 			(pinfunction "S2_18")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -12001,7 +11697,7 @@
 			(at 1.925 0.6 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S3B_15")
+			(net "/sVNS_16chan_circular_antenna_board_3/S3B_15")
 			(pinfunction "S3_19")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -12013,7 +11709,7 @@
 			(at 1.925 0.2 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S4B_4")
+			(net "/sVNS_16chan_circular_antenna_board_3/S4B_4")
 			(pinfunction "S4_20")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -12025,7 +11721,7 @@
 			(at 1.925 -0.200003 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S5B_9")
+			(net "/sVNS_16chan_circular_antenna_board_3/S5B_9")
 			(pinfunction "S5_21")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -12037,7 +11733,7 @@
 			(at 1.925 -0.6 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S6B_16")
+			(net "/sVNS_16chan_circular_antenna_board_3/S6B_16")
 			(pinfunction "S6_22")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -12049,7 +11745,7 @@
 			(at 1.925 -1 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S7B_23")
+			(net "/sVNS_16chan_circular_antenna_board_3/S7B_23")
 			(pinfunction "S7_23")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -12061,7 +11757,7 @@
 			(at 1.925 -1.400003 90)
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_3/S8B_28")
+			(net "/sVNS_16chan_circular_antenna_board_3/S8B_28")
 			(pinfunction "S8_24")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -12275,7 +11971,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/6b579eb3-d084-4970-a0a5-5e93a6c30a29")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -12283,7 +11979,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -12385,7 +12080,7 @@
 			(at -0.5 0)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/sVNS_16chan_square_board_1/P0.6_ADC")
+			(net "/sVNS_16chan_circular_antenna_board_1/P0.6_ADC")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -12464,7 +12159,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/b8d5c790-ba89-41ab-872d-c4cae806df54")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -12739,7 +12434,7 @@
 			(at -0.6 -0.5)
 			(size 0.45 0.27)
 			(layers "B.Cu" "B.Mask")
-			(net "/sVNS_16chan_square_board_1/P0.1_SMBUS0_SCL")
+			(net "/sVNS_16chan_circular_antenna_board_1/P0.1_SMBUS0_SCL")
 			(pinfunction "SCL_3")
 			(pintype "input")
 			(solder_mask_margin 0.1016)
@@ -12751,7 +12446,7 @@
 			(at 0 -0.6 270)
 			(size 0.45 0.27)
 			(layers "B.Cu" "B.Mask")
-			(net "/sVNS_16chan_square_board_1/P1.0_FD")
+			(net "/sVNS_16chan_circular_antenna_board_1/P1.0_FD")
 			(pinfunction "FD_4")
 			(pintype "output")
 			(solder_mask_margin 0.1016)
@@ -12763,7 +12458,7 @@
 			(at 0.6 -0.5)
 			(size 0.45 0.27)
 			(layers "B.Cu" "B.Mask")
-			(net "/sVNS_16chan_square_board_1/P0.0_SMBUS0_SDA")
+			(net "/sVNS_16chan_circular_antenna_board_1/P0.0_SMBUS0_SDA")
 			(pinfunction "SDA_5")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -12897,7 +12592,7 @@
 			)
 		)
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/398a7c53-83ce-4031-8474-c4731f0b07bb")
-		(sheetname "/sVNS_16chan_square_board_1/")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
 		(units
 			(unit
@@ -13103,7 +12798,7 @@
 			(at -1.9346 -1.25 180)
 			(size 0.86 0.264)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/sVNS_16chan_square_board_1/RSTB_{slash}_C2CK")
+			(net "/sVNS_16chan_circular_antenna_board_1/RSTB_{slash}_C2CK")
 			(pinfunction "RSTB/C2CK_6")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -13115,7 +12810,7 @@
 			(at -1.25 -1.9346 90)
 			(size 0.86 0.264)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/sVNS_16chan_square_board_1/P2.7_{slash}_C2D")
+			(net "/sVNS_16chan_circular_antenna_board_1/P2.7_{slash}_C2D")
 			(pinfunction "P2.7/C2D_7")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -13223,7 +12918,7 @@
 			(at 1.9346 0.25 180)
 			(size 0.86 0.264)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/sVNS_16chan_square_board_1/P1.0_FD")
+			(net "/sVNS_16chan_circular_antenna_board_1/P1.0_FD")
 			(pinfunction "P1.0_16")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -13247,7 +12942,7 @@
 			(at 1.9346 1.25 180)
 			(size 0.86 0.264)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/sVNS_16chan_square_board_1/P0.6_ADC")
+			(net "/sVNS_16chan_circular_antenna_board_1/P0.6_ADC")
 			(pinfunction "P0.6_18")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -13307,7 +13002,7 @@
 			(at -0.75 1.9346 90)
 			(size 0.86 0.264)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/sVNS_16chan_square_board_1/P0.1_SMBUS0_SCL")
+			(net "/sVNS_16chan_circular_antenna_board_1/P0.1_SMBUS0_SCL")
 			(pinfunction "P0.1_23")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)
@@ -13319,7 +13014,7 @@
 			(at -1.25 1.9346 90)
 			(size 0.86 0.264)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/sVNS_16chan_square_board_1/P0.0_SMBUS0_SDA")
+			(net "/sVNS_16chan_circular_antenna_board_1/P0.0_SMBUS0_SDA")
 			(pinfunction "P0.0_24")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.1016)

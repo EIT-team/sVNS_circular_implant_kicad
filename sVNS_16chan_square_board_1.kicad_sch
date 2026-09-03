@@ -2366,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 119.38) (xy 238.76 119.38)
+			(xy 251.46 119.38) (xy 245.11 119.38)
 		)
 		(stroke
 			(width 0.1524)
@@ -2403,16 +2403,6 @@
 			(type solid)
 		)
 		(uuid "511bc5ab-eeb1-4463-a1d8-f417d208a3af")
-	)
-	(wire
-		(pts
-			(xy 226.06 119.38) (xy 208.28 119.38)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "561fc096-7afc-49da-bb45-fa4642fc3924")
 	)
 	(wire
 		(pts
@@ -3056,6 +3046,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 119.38) (xy 226.06 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dc4e5c80-dde2-4aa3-bf2e-5604231ec8ce")
+	)
+	(wire
+		(pts
 			(xy 241.3 53.34) (xy 241.3 63.5)
 		)
 		(stroke
@@ -3143,16 +3143,6 @@
 			(type solid)
 		)
 		(uuid "f7e0917f-a3f3-43b5-ad80-4c81ba6bd46c")
-	)
-	(wire
-		(pts
-			(xy 245.11 72.39) (xy 241.3 72.39)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fba09503-2627-459b-b5db-86f3c9f63095")
 	)
 	(wire
 		(pts
@@ -3360,17 +3350,17 @@
 	)
 	(global_label "+3.3V"
 		(shape bidirectional)
-		(at 238.76 119.38 0)
+		(at 245.11 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "08058a17-c38e-4061-a8a5-a6a8ae7050b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.3452 119.38 0)
+			(at 235.5248 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3378,7 +3368,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3624,7 +3614,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 245.11 72.39 0)
+		(at 241.3 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3634,7 +3624,7 @@
 		)
 		(uuid "66da9390-99c8-4582-a58f-438381755532")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.9173 72.39 0)
+			(at 249.1073 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3696,17 +3686,17 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 210.82 119.38 0)
+		(at 215.9 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "86e83f4a-8f29-41b0-b51f-a42f1bc6981d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.6273 119.38 0)
+			(at 208.0927 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +3704,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4063,7 +4053,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603"
+		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
 			(at 139.7 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4144,7 +4134,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:1X01"
+		(property "Footprint" "sVNS_16chan_lib:1X01"
 			(at 276.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4222,7 +4212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:1X01"
+		(property "Footprint" "sVNS_16chan_lib:1X01"
 			(at 276.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4289,7 +4279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "15"
 			(at 261.874 50.419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4300,7 +4290,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603"
+		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
 			(at 260.35 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4381,7 +4371,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:1X01"
+		(property "Footprint" "sVNS_16chan_lib:1X01"
 			(at 254 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4448,7 +4438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "do not populate"
 			(at 270.764 50.419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4449,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603"
+		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
 			(at 269.24 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4793,7 +4783,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0402"
+		(property "Footprint" "sVNS_16chan_square_board:C0402_334"
 			(at 236.22 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4874,7 +4864,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603"
+		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
 			(at 55.88 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4955,7 +4945,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:1X01"
+		(property "Footprint" "sVNS_16chan_lib:1X01"
 			(at 228.6 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5114,7 +5104,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:R0402"
+		(property "Footprint" "sVNS_16chan_square_board:R0402_334"
 			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5196,7 +5186,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:R0402"
+		(property "Footprint" "sVNS_16chan_square_board:R0402_334"
 			(at 171.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5277,7 +5267,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:R0402"
+		(property "Footprint" "sVNS_16chan_square_board:R0402_334"
 			(at 187.96 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5358,7 +5348,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:1X01"
+		(property "Footprint" "sVNS_16chan_lib:1X01"
 			(at 228.6 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5436,7 +5426,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:R0402"
+		(property "Footprint" "sVNS_16chan_square_board:R0402_334"
 			(at 254 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5517,7 +5507,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:R0402"
+		(property "Footprint" "sVNS_16chan_square_board:R0402_334"
 			(at 193.04 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5598,7 +5588,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:R0402"
+		(property "Footprint" "sVNS_16chan_square_board:R0402_334"
 			(at 132.08 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5779,7 +5769,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:R0402"
+		(property "Footprint" "sVNS_16chan_square_board:R0402_334"
 			(at 171.45 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5860,7 +5850,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:1X01"
+		(property "Footprint" "sVNS_16chan_lib:1X01"
 			(at 228.6 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5938,7 +5928,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:R0402"
+		(property "Footprint" "sVNS_16chan_square_board:R0402_334"
 			(at 35.56 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6019,7 +6009,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603"
+		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
 			(at 121.92 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6100,7 +6090,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603"
+		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
 			(at 91.44 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6170,7 +6160,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "22"
 			(at 251.714 50.419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6181,7 +6171,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603"
+		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
 			(at 250.19 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6262,7 +6252,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603"
+		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
 			(at 83.82 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6343,7 +6333,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603"
+		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
