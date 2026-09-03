@@ -1943,6 +1943,12 @@
 		(uuid "607d8a75-5436-4ecf-aabc-6fca07cf50bf")
 	)
 	(junction
+		(at 255.27 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78ac9b93-03dd-4746-92b8-a67f45adfd4e")
+	)
+	(junction
 		(at 163.83 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1971,12 +1977,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2284ea3-5865-4b21-9708-07f97bedab11")
-	)
-	(junction
-		(at 261.62 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a69ba156-b100-4cfe-b996-270a449295e2")
 	)
 	(junction
 		(at 241.3 33.02)
@@ -2116,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 33.02) (xy 261.62 33.02)
+			(xy 254 33.02) (xy 255.27 33.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -2406,6 +2406,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 40.64) (xy 238.76 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53ff2373-1a25-4250-9b70-7ef85fc8ba6e")
+	)
+	(wire
+		(pts
 			(xy 181.61 73.66) (xy 176.53 73.66)
 		)
 		(stroke
@@ -2416,7 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 33.02) (xy 261.62 40.64)
+			(xy 255.27 33.02) (xy 255.27 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -2746,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 33.02) (xy 248.92 33.02)
+			(xy 241.3 33.02) (xy 243.84 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2763,6 +2773,16 @@
 			(type solid)
 		)
 		(uuid "9def5428-b916-4242-9e2c-ea380488087e")
+	)
+	(wire
+		(pts
+			(xy 255.27 40.64) (xy 264.16 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9e64d613-7940-4af9-8fab-a5d94b7b5615")
 	)
 	(wire
 		(pts
@@ -2813,16 +2833,6 @@
 			(type solid)
 		)
 		(uuid "a9836e5e-2bbd-4507-bec3-f4fc718d41b6")
-	)
-	(wire
-		(pts
-			(xy 261.62 40.64) (xy 238.76 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a9a1b5c8-27a6-47db-9365-4283cc7d6dc2")
 	)
 	(wire
 		(pts
@@ -3103,16 +3113,6 @@
 			(type solid)
 		)
 		(uuid "ed1defdf-6121-4a11-ac59-fd244850e3f7")
-	)
-	(wire
-		(pts
-			(xy 261.62 40.64) (xy 264.16 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f23cd2b3-eb70-4271-b0fa-ec0b04c8c443")
 	)
 	(wire
 		(pts
@@ -5395,7 +5395,7 @@
 	)
 	(symbol
 		(lib_id "sVNS_16chan_square_board-eagle-import:R-EU_R0402")
-		(at 254 33.02 180)
+		(at 248.92 33.02 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5405,7 +5405,7 @@
 		(dnp no)
 		(uuid "9a6669f4-23ae-402d-8d35-7b59aafb67f6")
 		(property "Reference" "R7"
-			(at 255.27 34.5186 0)
+			(at 250.19 34.5186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5416,7 +5416,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 257.81 29.718 0)
+			(at 252.73 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5427,7 +5427,7 @@
 			)
 		)
 		(property "Footprint" "sVNS_16chan_square_board:R0402_334"
-			(at 254 33.02 0)
+			(at 248.92 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +5438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 33.02 0)
+			(at 248.92 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5449,7 +5449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 33.02 0)
+			(at 248.92 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
