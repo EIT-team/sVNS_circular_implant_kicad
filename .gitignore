@@ -1,0 +1,43 @@
+# ==========================================
+# KiCad Gitignore Template (KiCad 6 / 7 / 8)
+# ==========================================
+
+# --- Temporary / Auto-Save Files ---
+*.tmp
+*-bak
+*.bck
+*.kicad_prl
+*.lck
+*.wbk
+_autosave-*
+*.lck
+~*
+.history/
+fp-info-cache
+
+# --- Backup Directories ---
+# KiCad 7/8 automatically creates a dedicated backup archive folder
+/backups/
+
+# --- Local User Configuration ---
+# Stores local window positions, recent files, and local settings. 
+# Do not track this; it varies per user/machine.
+*.kicad_user
+*.kicad_prl
+
+# --- Manufacturing & Output Folders (Optional but Recommended) ---
+# If you output Gerbers, BOMs, or PDFs into specific folders, 
+# ignore them so they don't clog your history. Customize these names if needed.
+[Gg]erber/
+[Gg]erbers/
+[Oo]utput/
+[Bb]uild/
+*.gbr
+*.drl
+*.rpt
+*.csv
+*.xml
+
+# --- 3D Shapes Cache ---
+# If you download 3D step/wrl files dynamically, ignore local caches
+*.3dshapes/

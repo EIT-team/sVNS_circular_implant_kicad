@@ -1,0 +1,9 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "sVNS_16chan_square_board-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/sVNS_16chan_square_board-eagle-import.kicad_sym") (options "") (descr ""))
+	(lib (name "sVNScomponents") (type "EAGLE") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/sVNScomponents.lbr") (options "") (descr ""))
+	(lib (name "sVNS_16chan_lib") (type "EAGLE") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/sVNS_16chan_lib.lbr") (options "") (descr ""))
+	(lib (name "SamacSys_Parts") (type "EAGLE") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/SamacSys_Parts.lbr") (options "") (descr ""))
+	(lib (name "N2510-6002RB") (type "EAGLE") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/N2510-6002RB.lbr") (options "") (descr ""))
+	(lib (name "M50-3631042") (type "EAGLE") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/LIB_M50-3631042/M50-3631042.lbr") (options "") (descr ""))
+)

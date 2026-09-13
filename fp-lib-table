@@ -1,0 +1,11 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "sVNS_16chan_square_board") (type "KiCad") (uri "$(KIPRJMOD)/sVNS_15chan_circular_antenna_board.pretty") (options "") (descr ""))
+	(lib (name "nfc_antennas") (type "KiCad") (uri "${KIPRJMOD}/nfc_antennas.pretty") (options "") (descr ""))
+	(lib (name "sVNS16chan_parts") (type "KiCad") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts") (options "") (descr ""))
+	(lib (name "sVNScomponents") (type "KiCad") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/sVNScomponents.pretty/") (options "") (descr ""))
+	(lib (name "SamacSys_Parts") (type "KiCad") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/SamacSys_Parts.pretty/") (options "") (descr ""))
+	(lib (name "sVNS_16chan_lib") (type "KiCad") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/sVNS_16chan_lib.pretty/") (options "") (descr ""))
+	(lib (name "M50-3631042") (type "KiCad") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/LIB_M50-3631042/M50-3631042.pretty/") (options "") (descr ""))
+	(lib (name "N2510-6002RB") (type "KiCad") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/N2510-6002RB.pretty/") (options "") (descr ""))
+)
