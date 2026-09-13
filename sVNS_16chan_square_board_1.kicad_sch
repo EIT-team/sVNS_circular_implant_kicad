@@ -5023,7 +5023,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:0603PS-473KRC"
+		(property "Footprint" "L_coilcraft_0603PS:0603PS-473KRC"
 			(at 73.66 142.24 0)
 			(hide yes)
 			(show_name no)
