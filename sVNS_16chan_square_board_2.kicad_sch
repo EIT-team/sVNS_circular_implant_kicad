@@ -1252,6 +1252,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "C11 and C19 - decoupling caps"
+		(exclude_from_sim no)
+		(at 257.556 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb44bcbd-9058-4f0c-bd46-34e2c78159f1")
+	)
 	(text "Op amp circuitry,\nH-bridge"
 		(exclude_from_sim no)
 		(at 186.69 185.42 0)
@@ -1276,16 +1286,16 @@
 		(uuid "092593ad-68d1-4bb4-a5f2-8fa5ecb04685")
 	)
 	(junction
+		(at 231.14 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "115bc3bd-6861-4540-bc40-56a585fc90ed")
+	)
+	(junction
 		(at 34.29 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33fe3100-5808-47e9-a5b2-cd9e14b3312c")
-	)
-	(junction
-		(at 220.98 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69a22d32-a5f3-4e9c-b5ab-72221f60a34f")
 	)
 	(junction
 		(at 66.04 73.66)
@@ -1367,6 +1377,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 106.68) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d4f40a-9438-4365-abc5-f3fcf5b605de")
+	)
+	(wire
+		(pts
 			(xy 41.91 87.63) (xy 34.29 87.63)
 		)
 		(stroke
@@ -1437,16 +1457,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 220.98 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2296d73e-8d7d-4097-8510-2ea80d48dc1c")
-	)
-	(wire
-		(pts
 			(xy 215.9 142.24) (xy 220.98 142.24)
 		)
 		(stroke
@@ -1507,7 +1517,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 106.68) (xy 165.1 121.92)
+			(xy 165.1 105.41) (xy 165.1 121.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -1607,7 +1617,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 132.08) (xy 220.98 132.08)
+			(xy 215.9 132.08) (xy 231.14 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -1657,6 +1667,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 106.68) (xy 231.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8059c30c-efb0-4b2d-babe-72c70e41743a")
+	)
+	(wire
+		(pts
 			(xy 167.64 139.7) (xy 157.48 139.7)
 		)
 		(stroke
@@ -1664,6 +1684,16 @@
 			(type solid)
 		)
 		(uuid "81fa9000-5941-4f4b-b367-bf05dfd1ba96")
+	)
+	(wire
+		(pts
+			(xy 142.24 105.41) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832b726b-d4f0-4cc8-a930-79606d7f029f")
 	)
 	(wire
 		(pts
@@ -1777,13 +1807,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 106.68) (xy 165.1 106.68)
+			(xy 153.67 105.41) (xy 165.1 105.41)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "a6831226-f43f-45ff-af9f-42780a9579d8")
+	)
+	(wire
+		(pts
+			(xy 231.14 132.08) (xy 261.62 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a8ab989a-2782-4e51-b23f-b51c6316117b")
 	)
 	(wire
 		(pts
@@ -1827,16 +1867,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 261.62 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c05b3f08-5357-4165-b1c7-2b7e7fc2fa85")
-	)
-	(wire
-		(pts
 			(xy 66.04 73.66) (xy 66.04 63.5)
 		)
 		(stroke
@@ -1847,13 +1877,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 106.68) (xy 203.2 106.68)
+			(xy 220.98 121.92) (xy 215.9 121.92)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "d1a2afee-9957-47de-8e29-cbfc5f3949da")
+		(uuid "c48d534a-206a-4985-931d-247a392ff759")
 	)
 	(wire
 		(pts
@@ -1927,6 +1957,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 106.68) (xy 218.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee398756-84bf-4d7e-980b-8d2d10b2d8d3")
+	)
+	(wire
+		(pts
 			(xy 34.29 86.36) (xy 34.29 87.63)
 		)
 		(stroke
@@ -1995,6 +2035,30 @@
 		)
 		(uuid "fe8c28ed-06c2-4487-8e80-843e02b1f9e2")
 	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 142.24 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "07fcf00c-f2b5-46a3-887a-3ea022f984c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.4327 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "P0.3_MUXD08_A1"
 		(shape bidirectional)
 		(at 158.75 134.62 180)
@@ -2008,6 +2072,30 @@
 		(uuid "0cb3ae35-14c9-4648-be09-043b05eebc3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.8524 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 215.9 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "1d8e2ea3-8b2b-4c5d-8288-f6501a5b6df7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.0927 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2309,6 +2397,30 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
+		(at 220.98 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca3d0998-e650-4aa0-a609-1b0e70b16f18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.947 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
 		(at 60.96 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2567,7 +2679,7 @@
 	)
 	(symbol
 		(lib_id "sVNS_16chan_square_board-eagle-import:C-EUC0603")
-		(at 198.12 106.68 90)
+		(at 151.13 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2577,7 +2689,7 @@
 		(dnp no)
 		(uuid "526b4cf0-772c-462e-adb3-6cbce61962eb")
 		(property "Reference" "C11"
-			(at 204.978 104.521 90)
+			(at 151.384 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2588,7 +2700,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 206.756 101.981 90)
+			(at 147.32 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2598,8 +2710,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
-			(at 198.12 106.68 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 151.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2610,7 +2722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 106.68 0)
+			(at 151.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2621,7 +2733,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 106.68 0)
+			(at 151.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,6 +3260,87 @@
 			(project "sVNS_15chan_circular_antenna_board"
 				(path "/f1f61f9b-48be-407e-8c80-4ca72006850a/86f61fa9-dc55-4b1e-911c-0f28f8517618"
 					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sVNS_16chan_square_board-eagle-import:C-EUC0603")
+		(at 220.98 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed8a3bf3-e78f-426f-9827-dda853a18a07")
+		(property "Reference" "C19"
+			(at 227.838 104.521 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 229.616 101.981 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 220.98 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "16f8a97f-1b84-44b5-ba24-854719585870")
+		)
+		(pin "1"
+			(uuid "676cf5bc-d25f-40aa-8333-41ce4f186403")
+		)
+		(instances
+			(project "sVNS_15chan_circular_antenna_board"
+				(path "/f1f61f9b-48be-407e-8c80-4ca72006850a/86f61fa9-dc55-4b1e-911c-0f28f8517618"
+					(reference "C19")
 					(unit 1)
 				)
 			)
