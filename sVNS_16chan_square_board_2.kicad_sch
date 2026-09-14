@@ -1252,7 +1252,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "C11 and C19 - decoupling caps"
+	(text "C19 - decoupling cap"
 		(exclude_from_sim no)
 		(at 257.556 104.394 0)
 		(effects
@@ -1302,12 +1302,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5fb9f69-0b48-43f7-bcd0-a7580a8129b6")
-	)
-	(junction
-		(at 165.1 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8192b7e-8adc-4f47-a2ac-06ab7ba88cc9")
 	)
 	(junction
 		(at 41.91 76.2)
@@ -1517,16 +1511,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 105.41) (xy 165.1 121.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "38ca5dc0-3b86-427c-bbfd-d9e9627538a1")
-	)
-	(wire
-		(pts
 			(xy 143.51 109.22) (xy 187.96 109.22)
 		)
 		(stroke
@@ -1587,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 121.92) (xy 165.1 121.92)
+			(xy 154.94 121.92) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -1687,16 +1671,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 105.41) (xy 146.05 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "832b726b-d4f0-4cc8-a930-79606d7f029f")
-	)
-	(wire
-		(pts
 			(xy 187.96 109.22) (xy 187.96 114.3)
 		)
 		(stroke
@@ -1724,16 +1698,6 @@
 			(type solid)
 		)
 		(uuid "8b99eb3c-eb01-472e-a6eb-581db65038a4")
-	)
-	(wire
-		(pts
-			(xy 165.1 121.92) (xy 154.94 121.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8f69d5a1-b536-41b1-a25e-2a3a89b93646")
 	)
 	(wire
 		(pts
@@ -1804,16 +1768,6 @@
 			(type solid)
 		)
 		(uuid "9d25026b-3079-42f6-8f56-deffa7f7567e")
-	)
-	(wire
-		(pts
-			(xy 153.67 105.41) (xy 165.1 105.41)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a6831226-f43f-45ff-af9f-42780a9579d8")
 	)
 	(wire
 		(pts
@@ -2034,30 +1988,6 @@
 			(justify left bottom)
 		)
 		(uuid "fe8c28ed-06c2-4487-8e80-843e02b1f9e2")
-	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 142.24 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "07fcf00c-f2b5-46a3-887a-3ea022f984c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.4327 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "P0.3_MUXD08_A1"
 		(shape bidirectional)
@@ -2629,7 +2559,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 81.28 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2672,87 +2602,6 @@
 			(project "sVNS_15chan_circular_antenna_board"
 				(path "/f1f61f9b-48be-407e-8c80-4ca72006850a/86f61fa9-dc55-4b1e-911c-0f28f8517618"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sVNS_16chan_square_board-eagle-import:C-EUC0603")
-		(at 151.13 105.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "526b4cf0-772c-462e-adb3-6cbce61962eb")
-		(property "Reference" "C11"
-			(at 151.384 104.648 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 147.32 102.108 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 151.13 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fa583a71-ba22-4929-9c74-d743e8269966")
-		)
-		(pin "1"
-			(uuid "31211689-0455-40a9-a88a-08a9eaf1a3de")
-		)
-		(instances
-			(project "sVNS_15chan_circular_antenna_board"
-				(path "/f1f61f9b-48be-407e-8c80-4ca72006850a/86f61fa9-dc55-4b1e-911c-0f28f8517618"
-					(reference "C11")
 					(unit 1)
 				)
 			)

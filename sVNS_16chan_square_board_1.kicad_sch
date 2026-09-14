@@ -1880,7 +1880,7 @@
 	)
 	(text "EFM8 decoupling"
 		(exclude_from_sim no)
-		(at 53.34 33.02 0)
+		(at 81.788 28.702 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -1888,6 +1888,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b06bff1-6747-4d45-84e4-ee1eda200b95")
+	)
+	(text "Place 0.1 uF \ncloser to the EFM8"
+		(exclude_from_sim no)
+		(at 65.786 37.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75224e96-5570-45d8-bcbb-7643e3610483")
 	)
 	(text "MCU, NFC, voltage converter,\nprogramming connector,\npower pins"
 		(exclude_from_sim no)
@@ -4783,7 +4793,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0402_334"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 236.22 63.5 0)
 			(hide yes)
 			(show_name no)
