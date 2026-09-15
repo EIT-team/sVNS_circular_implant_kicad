@@ -5,6 +5,17 @@
 	(uuid "f1f61f9b-48be-407e-8c80-4ca72006850a")
 	(paper "A4")
 	(lib_symbols)
+	(text "Capacitor notes: choose X7R for the device, C0G/NP0 for the antenna tuning caps.\nFor +3.3V X7R 0402 choose +10V voltage rating\nFor +20V X7R 0402 choose +50V voltage rating"
+		(exclude_from_sim no)
+		(at 25.654 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4601ebd3-76e8-45e7-ba60-cb966dd4f6ea")
+	)
 	(sheet
 		(at 25.4 25.4)
 		(size 12.7 3.81)

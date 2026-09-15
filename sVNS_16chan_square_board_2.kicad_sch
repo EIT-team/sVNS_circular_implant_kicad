@@ -3228,7 +3228,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sVNS_16chan_square_board:C0603_334"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 34.29 83.82 0)
 			(hide yes)
 			(show_name no)
