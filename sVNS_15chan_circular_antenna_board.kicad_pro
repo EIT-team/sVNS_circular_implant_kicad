@@ -76,7 +76,60 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|101130000|158116667|257073b4-4466-438f-9fc4-581e21630d4f|00000000-0000-0000-0000-000000000000",
+          "Normal 1x01 footprint"
+        ],
+        [
+          "lib_footprint_mismatch|102039548|155139548|9ad858c2-5294-401a-973c-f8f919442b3f|00000000-0000-0000-0000-000000000000",
+          "Modified mousebites"
+        ],
+        [
+          "lib_footprint_mismatch|102619548|154589548|7d9bd6ec-d5f0-4416-9094-fc57bce7db8b|00000000-0000-0000-0000-000000000000",
+          "Modified mousebites"
+        ],
+        [
+          "lib_footprint_mismatch|103184645|154034644|52777b4f-9992-4589-8e35-f553e5278b6f|00000000-0000-0000-0000-000000000000",
+          "Modified mousebites"
+        ],
+        [
+          "lib_footprint_mismatch|114469800|106205400|34f4d0d2-d4ca-46d4-9ff3-d4c77d3fb53e|00000000-0000-0000-0000-000000000000",
+          "Modified antenna"
+        ],
+        [
+          "lib_footprint_mismatch|117670000|132198578|3fd43ee1-aed8-4ec3-a42a-8190a632dc94|00000000-0000-0000-0000-000000000000",
+          "Modified with thermal vias"
+        ],
+        [
+          "lib_footprint_mismatch|118040000|153950000|faddb877-0584-4781-bc78-5398d39bab1f|00000000-0000-0000-0000-000000000000",
+          "Modified with thermal vias"
+        ],
+        [
+          "lib_footprint_mismatch|99490000|156293333|9a1cca32-e25b-4576-b964-eb9a46e23f0a|00000000-0000-0000-0000-000000000000",
+          "Normal 1x01"
+        ],
+        [
+          "padstack|116900000|153950000|38284b6e-1f70-4277-b064-a34fc379ab3d|00000000-0000-0000-0000-000000000000",
+          "Thermal pad"
+        ],
+        [
+          "padstack|118040003|152800000|8e20c394-ae53-4810-a222-198398cdbb9f|00000000-0000-0000-0000-000000000000",
+          "Thermal pad"
+        ],
+        [
+          "padstack|118040003|155100000|93d7cf31-b68e-49cb-8a79-2cc60b290b26|00000000-0000-0000-0000-000000000000",
+          "Thermal pad"
+        ],
+        [
+          "padstack|119190000|153950000|39b063e3-58c4-4c1b-8981-216fe9dac45a|00000000-0000-0000-0000-000000000000",
+          "Thermal pad"
+        ],
+        [
+          "unconnected_items|106190000|133540000|F.Cu|4|5d987283-8991-48c3-a056-856b0ddb062d|453bdb23-7739-4428-85dd-fba98f68ee71",
+          "Antenna tracks"
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -680,7 +733,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1524,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,

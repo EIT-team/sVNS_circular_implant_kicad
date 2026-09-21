@@ -1878,6 +1878,17 @@
 		)
 		(uuid "1c4c791a-2fa5-4dfe-ac24-aa09e536b677")
 	)
+	(text "Antenna tuned to 13.56 MHz resonance frequency:\ntightly glued ferrite sheet on B.Cu implied\ninput capacitance of the LA-LB terminal is 50 pF (per NT3H2211 datasheet)"
+		(exclude_from_sim no)
+		(at 283.718 17.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "305b922a-4fd5-4088-a0c7-e46934895a8d")
+	)
 	(text "EFM8 decoupling"
 		(exclude_from_sim no)
 		(at 81.788 28.702 0)
@@ -1888,6 +1899,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b06bff1-6747-4d45-84e4-ee1eda200b95")
+	)
+	(text "np0/c0g cap\n100 V"
+		(exclude_from_sim no)
+		(at 250.444 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5aac9b28-5050-4dbe-8d58-2d7a82b48160")
 	)
 	(text "Place 0.1 uF \ncloser to the EFM8"
 		(exclude_from_sim no)
@@ -4289,8 +4310,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15"
-			(at 261.874 50.419 0)
+		(property "Value" "do not populate"
+			(at 261.62 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6170,7 +6191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 251.714 50.419 0)
 			(show_name no)
 			(do_not_autoplace no)
