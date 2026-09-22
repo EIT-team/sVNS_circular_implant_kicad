@@ -1,0 +1,84 @@
+** Drc report for sVNS_15chan_circular_antenna_board.kicad_pcb **
+** Created on 2026-09-22T11:44:42 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 12 DRC violations **
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning (excluded)
+    @(116.9000 mm, 153.9500 mm): PTH pad 33 [GND] of U4
+    Thermal pad
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning (excluded)
+    @(118.0400 mm, 152.8000 mm): PTH pad 33 [GND] of U4
+    Thermal pad
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning (excluded)
+    @(118.0400 mm, 155.1000 mm): PTH pad 33 [GND] of U4
+    Thermal pad
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning (excluded)
+    @(119.1900 mm, 153.9500 mm): PTH pad 33 [GND] of U4
+    Thermal pad
+[lib_footprint_mismatch]: Footprint '1X01' does not match copy in library 'sVNS_16chan_lib'
+    Local override; warning (excluded)
+    @(101.1300 mm, 158.0300 mm): Footprint JP2
+    Normal 1x01 footprint
+[lib_footprint_mismatch]: Footprint 'Antenna_d30mm' does not match copy in library 'nfc_antennas'
+    Local override; warning (excluded)
+    @(114.4698 mm, 106.2054 mm): Footprint REF**
+    Custom NFC antenna
+[lib_footprint_mismatch]: Footprint 'RSN0032B' does not match copy in library 'sVNS_16chan_square_board'
+    Local override; warning (excluded)
+    @(117.6700 mm, 132.1986 mm): Footprint U3
+    Modified with thermal vias
+[lib_footprint_mismatch]: Footprint 'MouseBite-Part_2.0x2.0mm_inset_D0.5mm_P0.85mm_4h_Trace' does not match copy in library 'Panelization'
+    Local override; warning (excluded)
+    @(103.0998 mm, 153.5962 mm): Footprint REF**
+    Modified mousebites
+[lib_footprint_mismatch]: Footprint 'MouseBite-Part_2.0x2.0mm_inset_D0.5mm_P0.85mm_4h_Trace' does not match copy in library 'Panelization'
+    Local override; warning (excluded)
+    @(102.5347 mm, 154.1511 mm): Footprint REF**
+    Modified mousebites
+[lib_footprint_mismatch]: Footprint '1X01' does not match copy in library 'sVNS_16chan_lib'
+    Local override; warning (excluded)
+    @(99.4900 mm, 156.1300 mm): Footprint 3V
+    Normal 1x01
+[lib_footprint_mismatch]: Footprint 'MouseBite-Part_2.0x2.0mm_inset_D0.5mm_P0.85mm_4h_Trace' does not match copy in library 'Panelization'
+    Local override; warning (excluded)
+    @(101.9547 mm, 154.7011 mm): Footprint REF**
+    Modified mousebites
+[lib_footprint_mismatch]: Footprint 'RSN0032B' does not match copy in library 'sVNS_16chan_square_board'
+    Local override; warning (excluded)
+    @(118.0400 mm, 153.9500 mm): Footprint U4
+    Modified with thermal vias
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error (excluded)
+    @(106.1900 mm, 133.5400 mm): Track [Net-(U1-LA)] on B.Cu, length 3.9464 mm
+    @(106.7900 mm, 133.5900 mm): Track [Net-(U1-LA)] on B.Cu, length 2.8900 mm
+    Antenna pins - connected to cusrom NFC footprint
+
+** Found 3 Footprint errors **
+[missing_footprint]: Missing footprint +3.3V0 (PINHD-1X1)
+    Local override; warning (excluded)
+    Already included in C2 programming connector
+[extra_footprint]: Extra footprint
+    Local override; warning (excluded)
+    @(114.4698 mm, 106.2054 mm): Footprint REF**
+    NFC antenna
+[extra_footprint]: Extra footprint
+    Local override; warning (excluded)
+    @(99.4900 mm, 156.1300 mm): Footprint 3V
+    C2 programming pin
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

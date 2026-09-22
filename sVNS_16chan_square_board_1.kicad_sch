@@ -1878,7 +1878,7 @@
 		)
 		(uuid "1c4c791a-2fa5-4dfe-ac24-aa09e536b677")
 	)
-	(text "Antenna tuned to 13.56 MHz resonance frequency:\ntightly glued ferrite sheet on B.Cu implied\ninput capacitance of the LA-LB terminal is 50 pF (per NT3H2211 datasheet)"
+	(text "Antenna tuned to 13.56 MHz resonance frequency:\ntightly glued ferrite sheet (https://www.farnell.com/datasheets/1858665.pdf) on B.Cu implied\ninput capacitance of the LA-LB terminal is 50 pF (per NT3H2211 datasheet)"
 		(exclude_from_sim no)
 		(at 283.718 17.018 0)
 		(effects

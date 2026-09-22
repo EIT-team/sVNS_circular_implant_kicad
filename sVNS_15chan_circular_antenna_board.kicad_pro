@@ -78,6 +78,14 @@
       ],
       "drc_exclusions": [
         [
+          "extra_footprint|114469800|106205400|34f4d0d2-d4ca-46d4-9ff3-d4c77d3fb53e|00000000-0000-0000-0000-000000000000",
+          "NFC antenna"
+        ],
+        [
+          "extra_footprint|99490000|156130000|9a1cca32-e25b-4576-b964-eb9a46e23f0a|00000000-0000-0000-0000-000000000000",
+          "C2 programming pin"
+        ],
+        [
           "lib_footprint_mismatch|101130000|158116667|257073b4-4466-438f-9fc4-581e21630d4f|00000000-0000-0000-0000-000000000000",
           "Normal 1x01 footprint"
         ],
@@ -94,8 +102,8 @@
           "Modified mousebites"
         ],
         [
-          "lib_footprint_mismatch|114469800|106205400|34f4d0d2-d4ca-46d4-9ff3-d4c77d3fb53e|00000000-0000-0000-0000-000000000000",
-          "Modified antenna"
+          "lib_footprint_mismatch|114201942|105937543|34f4d0d2-d4ca-46d4-9ff3-d4c77d3fb53e|00000000-0000-0000-0000-000000000000",
+          "Custom NFC antenna"
         ],
         [
           "lib_footprint_mismatch|117670000|132198578|3fd43ee1-aed8-4ec3-a42a-8190a632dc94|00000000-0000-0000-0000-000000000000",
@@ -108,6 +116,10 @@
         [
           "lib_footprint_mismatch|99490000|156293333|9a1cca32-e25b-4576-b964-eb9a46e23f0a|00000000-0000-0000-0000-000000000000",
           "Normal 1x01"
+        ],
+        [
+          "missing_footprint|0|0|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000",
+          "Already included in C2 programming connector"
         ],
         [
           "padstack|116900000|153950000|38284b6e-1f70-4277-b064-a34fc379ab3d|00000000-0000-0000-0000-000000000000",
@@ -127,7 +139,7 @@
         ],
         [
           "unconnected_items|106190000|133540000|F.Cu|4|5d987283-8991-48c3-a056-856b0ddb062d|453bdb23-7739-4428-85dd-fba98f68ee71",
-          "Antenna tracks"
+          "Antenna pins - connected to cusrom NFC footprint"
         ]
       ],
       "meta": {

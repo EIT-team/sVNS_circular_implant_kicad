@@ -34,7 +34,6 @@ fp-info-cache
 [Bb]uild/
 *.gbr
 *.drl
-*.rpt
 *.csv
 *.xml
 
