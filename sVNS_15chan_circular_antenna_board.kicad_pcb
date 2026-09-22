@@ -404,6 +404,12 @@
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/3d225f3e-c713-4c08-be03-6ae17bbd2288")
 		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "9" "8" "7" "6" "5")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center -1.35 -1.3)
@@ -4319,6 +4325,15 @@
 		(path "/b1c2bb36-7672-42a8-ad22-d0854a0c0794/c82b7bec-b3d7-4393-b4d1-9efbea4e5204")
 		(sheetname "/sVNS_16chan_circular_antenna_board_3/")
 		(sheetfile "sVNS_16chan_square_board_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "31" "16" "17" "18" "19" "20" "21" "22" "23" "24" "8" "7" "6" "5"
+					"4" "3" "2" "1" "15" "14" "11" "10" "29" "12" "13" "26" "27" "28" "30"
+					"32" "25" "9" "33"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -4818,6 +4833,8 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "PAD_33")
+			(pintype "passive")
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "84772591-d65a-4a01-9d61-d38c8af7167c")
@@ -4829,6 +4846,8 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "PAD_33")
+			(pintype "passive")
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "7b204210-381f-4183-a525-db1f85d9bb15")
@@ -4851,6 +4870,8 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "PAD_33")
+			(pintype "passive")
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "3b7bbf6c-989b-49b9-a1af-752e34e23ab7")
@@ -4862,6 +4883,8 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "PAD_33")
+			(pintype "passive")
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "b9278d27-c44f-4111-9535-d066f251f85d")
@@ -5664,99 +5687,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "62b0b988-047c-4df6-93f4-8505ae12c1dd")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "sVNS_16chan_lib:1X01"
-		(layer "F.Cu")
-		(uuid "9a1cca32-e25b-4576-b964-eb9a46e23f0a")
-		(at 99.49 156.13)
-		(descr "PIN HEADER")
-		(property "Reference" "3V"
-			(at 0.26 -1.08 315)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "49fac82d-9121-44fb-b3ea-3157508f1521")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "PINHD-1X1"
-			(at -1.27 3.175 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19c942b6-9a07-43f4-9977-f2bcbb98f402")
-			(effects
-				(font
-					(size 1.1684 1.1684)
-					(thickness 0.1016)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60bbb4a4-4ef0-4ff4-94bb-79ce287431e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f6cf33c6-9f39-4d9d-8c5d-4b2d0f1b2a56")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
-		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "b6d28b1b-62da-4f33-9cf4-b8ff6b66bb6b")
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0.163333)
-			(size 1.524 1.524)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.25)
-			(chamfer_ratio 0.2928932188)
-			(chamfer top_left top_right bottom_left bottom_right)
-			(net "+3.3V")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.1016)
-			(thermal_bridge_angle 0)
-			(uuid "0061119c-05a6-4cef-a05d-eaadf8ed0da3")
 		)
 		(embedded_fonts no)
 	)
@@ -7342,6 +7272,100 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "sVNS_16chan_lib:1X01"
+		(layer "F.Cu")
+		(uuid "eddb70ce-8f70-4a79-998a-d2cb44d092c1")
+		(at 99.49 156.293333 -45)
+		(descr "PIN HEADER")
+		(property "Reference" "+3V"
+			(at -1.126657 -1.126657 315)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f4051814-3686-404b-a792-97bf2792ed26")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-1X1"
+			(at -1.270001 3.175 315)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2c5697a-33f6-43dd-85e9-b7552929fcc9")
+			(effects
+				(font
+					(size 1.1684 1.1684)
+					(thickness 0.1016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 315)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e7f12e6-b2b9-4dee-96fc-04341bc94d33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 315)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffb2656c-f1e2-434a-ad11-edb0756d588d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/35e2cdd3-a5a9-45e3-8e04-b3dc801a027a")
+		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
+		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "d72bb293-d85f-489e-a8db-6acc8109245a")
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 315)
+			(size 1.524 1.524)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.25)
+			(chamfer_ratio 0.2928932188)
+			(chamfer top_left top_right bottom_left bottom_right)
+			(net "+3.3V")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "e459ca85-eda6-44cf-a3e0-264d03f367c8")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "L_coilcraft_0603PS:0603PS-473KRC"
 		(layer "F.Cu")
 		(uuid "ee1cf0b9-b08e-455e-b181-57e4ec8ace89")
@@ -7594,6 +7618,15 @@
 		(path "/b1c2bb36-7672-42a8-ad22-d0854a0c0794/cbc2067b-fcc9-47c6-ae1c-9c318ac4a50e")
 		(sheetname "/sVNS_16chan_circular_antenna_board_3/")
 		(sheetfile "sVNS_16chan_square_board_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "31" "16" "17" "18" "19" "20" "21" "22" "23" "24" "8" "7" "6" "5"
+					"4" "3" "2" "1" "15" "14" "11" "10" "29" "12" "13" "26" "27" "28" "30"
+					"32" "25" "9" "33"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -8093,6 +8126,8 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "PAD_33")
+			(pintype "passive")
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "38284b6e-1f70-4277-b064-a34fc379ab3d")
@@ -8104,6 +8139,8 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "PAD_33")
+			(pintype "passive")
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "8e20c394-ae53-4810-a222-198398cdbb9f")
@@ -8126,6 +8163,8 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "PAD_33")
+			(pintype "passive")
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "93d7cf31-b68e-49cb-8a79-2cc60b290b26")
@@ -8137,6 +8176,8 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "PAD_33")
+			(pintype "passive")
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "39b063e3-58c4-4c1b-8981-216fe9dac45a")
@@ -8798,6 +8839,15 @@
 		(path "/86f61fa9-dc55-4b1e-911c-0f28f8517618/a1d23553-a90d-463f-9527-293188dd9df3")
 		(sheetname "/sVNS_16chan_circular_antenna_board_2/")
 		(sheetfile "sVNS_16chan_square_board_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "33" "9" "32" "10" "31" "11" "30"
+					"12" "29" "13" "28" "14" "27" "15" "26" "16" "25" "24" "23" "22" "21"
+					"20" "19" "18" "17"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center -2.375 2)
@@ -10193,6 +10243,14 @@
 		(path "/710b6e3c-e58e-47b5-b7cc-eafffd7d7052/398a7c53-83ce-4031-8474-c4731f0b07bb")
 		(sheetname "/sVNS_16chan_circular_antenna_board_1/")
 		(sheetfile "sVNS_16chan_square_board_1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "24" "23" "22"
+					"21" "20" "19" "18" "17" "16" "15" "14" "13" "25"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2 2)

@@ -4117,6 +4117,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 139.7 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D"
+			(at 139.7 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9cc53e26-afd2-4a11-9ef7-e637de599276")
 		)
@@ -4188,6 +4210,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 276.86 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "68000-100HLF "
+			(at 276.86 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Amphenol-FCI/68000-100HLF?qs=7wbiI%2FkljlrW93e5zkmrKQ%3D%3D"
 			(at 276.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4276,6 +4320,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "68000-100HLF "
+			(at 276.86 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Amphenol-FCI/68000-100HLF?qs=7wbiI%2FkljlrW93e5zkmrKQ%3D%3D"
+			(at 276.86 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bf55bcc1-9ddb-4ee4-96d9-773dfef171cf")
 		)
@@ -4297,7 +4363,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1d23a8e1-4976-4a94-ae88-7ac3f7ae6717")
 		(property "Reference" "C7"
 			(at 262.636 46.99 0)
@@ -4344,6 +4410,28 @@
 			)
 		)
 		(property "Description" "CAPACITOR, European symbol"
+			(at 260.35 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 260.35 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" ""
 			(at 260.35 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4435,6 +4523,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "68000-100HLF "
+			(at 254 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Amphenol-FCI/68000-100HLF?qs=7wbiI%2FkljlrW93e5zkmrKQ%3D%3D"
+			(at 254 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ef157e2-a664-4058-9a74-2863388c1d82")
 		)
@@ -4456,7 +4566,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "38fc1fa6-0748-49df-a328-787c8de6e00e")
 		(property "Reference" "C8"
 			(at 272.034 46.99 0)
@@ -4503,6 +4613,28 @@
 			)
 		)
 		(property "Description" "CAPACITOR, European symbol"
+			(at 269.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 269.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" ""
 			(at 269.24 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4584,6 +4716,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "EFM8SB10F8A-A-QFN24"
+			(at 68.58 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Silicon-Labs/EFM8SB10F8A-A-QFN24?qs=6hSH1YZbOIhAM1hlgRQfGA%3D%3D&utm_id=9882080341"
 			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4744,6 +4898,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "LT8410EDC-1#TRMPBF"
+			(at 81.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Analog-Devices/LT8410EDC-1TRMPBF?qs=hVkxg5c3xu%2Ftydmd3V99bg%3D%3D"
+			(at 81.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88b9afc9-0968-456f-affb-4321acf17af5")
 		)
@@ -4847,6 +5023,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "GRM155R71C224KA12D"
+			(at 236.22 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Murata-Electronics/GRM155R71C224KA12D?qs=8QlF2AcitS0dCOVLIM1EhQ%3D%3D"
+			(at 236.22 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4aa9ea98-30cf-47dc-a11a-167c2c572516")
 		)
@@ -4919,6 +5117,28 @@
 		)
 		(property "Description" ""
 			(at 55.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM188Z71E225KE43D"
+			(at 55.88 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Murata-Electronics/GRM188Z71E225KE43D?qs=Ey7%2FXF42M3cRXEZQV5QZIQ%3D%3D"
+			(at 55.88 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,6 +5229,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "68000-100HLF "
+			(at 228.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Amphenol-FCI/68000-100HLF?qs=7wbiI%2FkljlrW93e5zkmrKQ%3D%3D"
+			(at 228.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37fe3540-2356-46df-9ded-93dcaf0f64e3")
 		)
@@ -5078,6 +5320,28 @@
 		)
 		(property "Description" ""
 			(at 73.66 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0603PS-473KRC"
+			(at 73.66 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://uk.farnell.com/coilcraft/0603ps-473krc/power-inductor-47uh-shld-0-18a/dp/3648830?CMP=GRHB-OCTOPART"
+			(at 73.66 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,6 +5422,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 124.46 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ2RKF4873X"
+			(at 124.46 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://uk.farnell.com/panasonic/erj2rkf4873x/res-487k-1-0-1w-0402-thick-film/dp/2302918"
 			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5250,6 +5536,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "ERJ-2RKF1003X"
+			(at 171.45 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Panasonic-Industry/ERJ-2RKF1003X?qs=H7k1u0Mp9JQnXoBKdf15Qg%3D%3D"
+			(at 171.45 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "610c516a-6d8c-4ee3-8a88-003c60b49730")
 		)
@@ -5321,6 +5629,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2GEJ103X"
+			(at 187.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Panasonic-Industry/ERJ-2GEJ103X?qs=H7k1u0Mp9JT5lLIkQn%2F1mg%3D%3D"
 			(at 187.96 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5412,6 +5742,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "68000-100HLF "
+			(at 228.6 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Amphenol-FCI/68000-100HLF?qs=7wbiI%2FkljlrW93e5zkmrKQ%3D%3D"
+			(at 228.6 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a92de32-64ea-47f4-a76c-35747aa2c895")
 		)
@@ -5480,6 +5832,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2GEJ103X"
+			(at 248.92 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Panasonic-Industry/ERJ-2GEJ103X?qs=H7k1u0Mp9JT5lLIkQn%2F1mg%3D%3D"
 			(at 248.92 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5571,6 +5945,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "ERJ-2GEJ103X"
+			(at 193.04 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Panasonic-Industry/ERJ-2GEJ103X?qs=H7k1u0Mp9JT5lLIkQn%2F1mg%3D%3D"
+			(at 193.04 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32cfabff-0ec5-4e06-9486-edbe7223be34")
 		)
@@ -5652,6 +6048,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "AC0402FR-07511KL"
+			(at 132.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/AC0402FR-07511KL?qs=UBLIud9aIG28gbr2WYQp5Q%3D%3D"
+			(at 132.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91f39645-55d6-47ce-b595-8446f1004a97")
 		)
@@ -5723,6 +6141,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NT3H2211W0FHKH"
+			(at 220.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/NXP-Semiconductors/NT3H2211W0FHKH?qs=5ptrxOxu%2BRYne6%2Bk1ugSVQ%3D%3D"
 			(at 220.98 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5833,6 +6273,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CRCW04021M30FKED "
+			(at 171.45 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Vishay/CRCW04021M30FKED?qs=8jQ01qPFmplryF4O3XruvA%3D%3D"
+			(at 171.45 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e07f0a6e-8102-4da2-a675-a3cd1d870d5e")
 		)
@@ -5914,6 +6376,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "68000-100HLF "
+			(at 228.6 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Amphenol-FCI/68000-100HLF?qs=7wbiI%2FkljlrW93e5zkmrKQ%3D%3D"
+			(at 228.6 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b7af6e76-f29b-430f-938f-a3dc17acf875")
 		)
@@ -5982,6 +6466,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2GEJ102X"
+			(at 35.56 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Panasonic-Industry/ERJ-2GEJ102X?qs=6%252BUraArZVSD3KiPIyQqOzg%3D%3D"
 			(at 35.56 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6073,6 +6579,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 121.92 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D"
+			(at 121.92 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "36b3b358-a7e5-4dc1-9896-f67e16fd7b0e")
 		)
@@ -6144,6 +6672,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "KAM05CR71A105MH"
+			(at 91.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/KYOCERA-AVX/KAM05CR71A105MH?qs=wT7LY0lnAe1cG3%252BQHg%2F5pw%3D%3D"
 			(at 91.44 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6235,6 +6785,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "GRM1885C1H100JA01D"
+			(at 250.19 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Murata-Electronics/GRM1885C1H100JA01D?qs=ww%2FlVN%252BrV%2FYzOLxgKpM8Gg%3D%3D"
+			(at 250.19 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de50f3ba-9264-4739-9c39-35bb2a29e92c")
 		)
@@ -6306,6 +6878,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 83.82 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D"
 			(at 83.82 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6388,6 +6982,28 @@
 		)
 		(property "Description" ""
 			(at 121.92 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM188Z71E225KE43D"
+			(at 121.92 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Murata-Electronics/GRM188Z71E225KE43D?qs=Ey7%2FXF42M3cRXEZQV5QZIQ%3D%3D"
+			(at 121.92 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

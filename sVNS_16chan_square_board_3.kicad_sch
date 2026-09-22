@@ -3712,6 +3712,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "M50-3631042"
+			(at 190.5 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Harwin/M50-3631042?qs=%252BdQmOuGyFcGLl60dqjvGKA%3D%3D"
+			(at 190.5 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "fe6ab51b-c74f-446d-95e0-91d22cf86065")
 		)
@@ -3817,6 +3839,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 176.53 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D"
+			(at 176.53 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0623c9f5-c63b-4300-ba68-78c6b27eeac0")
 		)
@@ -3888,6 +3932,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "M50-3631042"
+			(at 50.8 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Harwin/M50-3631042?qs=%252BdQmOuGyFcGLl60dqjvGKA%3D%3D"
 			(at 50.8 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -4003,6 +4069,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "M50-3631042"
+			(at 116.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/Harwin/M50-3631042?qs=%252BdQmOuGyFcGLl60dqjvGKA%3D%3D"
+			(at 116.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "ba8ff7a6-5416-4338-965a-2db3cbe8cf0e")
 		)
@@ -4099,6 +4187,28 @@
 		)
 		(property "Description" ""
 			(at 114.3 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MUX36S16IRSNR"
+			(at 114.3 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://export.farnell.com/texas-instruments/mux36s16irsnr/analog-multiplexer-1-ch-16-1-wqfn/dp/2891180?CMP=KNC-MUK-GEN-KWL"
+			(at 114.3 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4282,6 +4392,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "MUX36S16IRSNR"
+			(at 210.82 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://export.farnell.com/texas-instruments/mux36s16irsnr/analog-multiplexer-1-ch-16-1-wqfn/dp/2891180?CMP=KNC-MUK-GEN-KWL"
+			(at 210.82 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "dba9a940-513c-4db3-8bad-8ead1dd392ba")
 		)
@@ -4447,6 +4579,28 @@
 		)
 		(property "Description" ""
 			(at 80.01 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 80.01 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D"
+			(at 80.01 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
