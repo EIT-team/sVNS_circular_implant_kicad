@@ -118,10 +118,6 @@
           "Normal 1x01"
         ],
         [
-          "missing_footprint|0|0|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000",
-          "Already included in C2 programming connector"
-        ],
-        [
           "padstack|116900000|153950000|38284b6e-1f70-4277-b064-a34fc379ab3d|00000000-0000-0000-0000-000000000000",
           "Thermal pad"
         ],
@@ -775,7 +771,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gbr_30mm/",
+      "plot": "svns_implant_gbr_30mm/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -863,7 +859,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

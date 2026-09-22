@@ -125,7 +125,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_575ff5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -135,7 +135,7 @@
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
-			(plotframeref no)
+			(plotframeref yes)
 			(mode 1)
 			(useauxorigin no)
 			(pdf_front_fp_property_popups yes)
@@ -156,9 +156,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "svns_implant_gbr_30mm/")
 		)
 	)
 	(footprint "sVNS_16chan_square_board:C0603_334"
@@ -13958,8 +13958,60 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "<=="
+		(at 130.69 143.09 0)
+		(layer "Cmts.User")
+		(uuid "04d93ccb-8a3c-4b80-ba17-6ac8749ea566")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "<=="
+		(at 130.75 107.81 0)
+		(layer "Cmts.User")
+		(uuid "e51ac209-4603-4d6f-9b8a-752183263df1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Rigid area"
+		(at 137.16 143.32 0)
+		(layer "Cmts.User")
+		(uuid "343ff618-0008-43a5-a7c5-1a042fae3752")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Rigid area"
+		(at 137.22 108.04 0)
+		(layer "Cmts.User")
+		(uuid "460cb26f-fbfa-482b-91de-7c4dacf6e7d1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Top Cu: components, IC, escape vias, output connector\nIn1 (green): vertical\nIn2 (orange): horizontal\nBottom Cu: components, IC, escape vias"
-		(at 133.99 144.78 0)
+		(at 185.3 136.39 0)
 		(layer "Cmts.User")
 		(uuid "d68a3534-5b4c-4643-b3e2-1084d36c8c39")
 		(effects
@@ -13971,7 +14023,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "13.56 MHz Ferrite sheet MULL12060-200\nto be placed between the antenna (top circle, bottom side - B.Cu)\nand the main PCB (bottom circle). "
+	(gr_text "13.56 MHz Ferrite sheet MULL12060-200\nto be placed between the antenna (top circle, bottom side - B.Cu)\nand the main PCB (bottom circle). Will be done by the user"
 		(at 114.5 87.72 0)
 		(layer "Cmts.User")
 		(uuid "8b93987a-2006-42a8-a21a-d9b9077322f9")
