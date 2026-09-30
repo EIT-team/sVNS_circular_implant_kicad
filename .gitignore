@@ -28,14 +28,14 @@ fp-info-cache
 # --- Manufacturing & Output Folders (Optional but Recommended) ---
 # If you output Gerbers, BOMs, or PDFs into specific folders, 
 # ignore them so they don't clog your history. Customize these names if needed.
-[Gg]erber/
-[Gg]erbers/
-[Oo]utput/
-[Bb]uild/
-*.gbr
-*.drl
-*.csv
-*.xml
+# [Gg]erber/
+# [Gg]erbers/
+# [Oo]utput/
+# [Bb]uild/
+# *.gbr
+# *.drl
+# *.csv
+# *.xml
 
 # --- 3D Shapes Cache ---
 # If you download 3D step/wrl files dynamically, ignore local caches

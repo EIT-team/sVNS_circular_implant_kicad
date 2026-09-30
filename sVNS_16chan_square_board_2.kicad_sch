@@ -2614,7 +2614,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" "AC0402KRX7R9BB104"
 			(at 81.28 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -2625,7 +2625,7 @@
 				)
 			)
 		)
-		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D"
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/AC0402KRX7R9BB104?qs=eP2BKZSCXI7oP81udpZZdw%3D%3D"
 			(at 81.28 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -3334,7 +3334,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" "AC0402KRX7R9BB104"
 			(at 220.98 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -3345,7 +3345,7 @@
 				)
 			)
 		)
-		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D"
+		(property "Supplier Link" "https://www.mouser.co.uk/en/ProductDetail/YAGEO/AC0402KRX7R9BB104?qs=eP2BKZSCXI7oP81udpZZdw%3D%3D"
 			(at 220.98 106.68 90)
 			(hide yes)
 			(show_name no)

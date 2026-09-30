@@ -82,6 +82,10 @@
           "NFC antenna"
         ],
         [
+          "extra_footprint|99490000|156293333|eddb70ce-8f70-4a79-998a-d2cb44d092c1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|101130000|158116667|257073b4-4466-438f-9fc4-581e21630d4f|00000000-0000-0000-0000-000000000000",
           "Normal 1x01 footprint"
         ],
@@ -96,6 +100,10 @@
         [
           "lib_footprint_mismatch|103184645|154034644|52777b4f-9992-4589-8e35-f553e5278b6f|00000000-0000-0000-0000-000000000000",
           "Modified mousebites"
+        ],
+        [
+          "lib_footprint_mismatch|105210000|144617200|3d8ddc89-352e-4a04-853c-7ef0bd618e28|00000000-0000-0000-0000-000000000000",
+          "Modified the courtyard"
         ],
         [
           "lib_footprint_mismatch|114201942|105937543|34f4d0d2-d4ca-46d4-9ff3-d4c77d3fb53e|00000000-0000-0000-0000-000000000000",
@@ -126,7 +134,7 @@
           "Thermal pad"
         ],
         [
-          "unconnected_items|106190000|133540000|F.Cu|4|98b2fa6f-8b13-44b6-8100-050181bae2b1|576411ca-22f8-43c7-a913-e0d6757671dc",
+          "unconnected_items|106190000|133540000|F.Cu|4|5d987283-8991-48c3-a056-856b0ddb062d|453bdb23-7739-4428-85dd-fba98f68ee71",
           "Antenna pins - connected to cusrom NFC footprint"
         ]
       ],
@@ -922,7 +930,7 @@
         "uuid": "f1f61f9b-48be-407e-8c80-4ca72006850a"
       }
     ],
-    "used_designators": "C6-8,C17-19",
+    "used_designators": "C6-8,C17-19,L2",
     "variants": []
   },
   "sheets": [

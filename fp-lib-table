@@ -8,4 +8,5 @@
 	(lib (name "sVNS_16chan_lib") (type "KiCad") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/sVNS_16chan_lib.pretty/") (options "") (descr ""))
 	(lib (name "M50-3631042") (type "KiCad") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/LIB_M50-3631042/M50-3631042.pretty/") (options "") (descr ""))
 	(lib (name "N2510-6002RB") (type "KiCad") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/N2510-6002RB.pretty/") (options "") (descr ""))
+	(lib (name "CBC2518T470M") (type "KiCad") (uri "${KIPRJMOD}/sVNS_15chan_circular_antenna_board.pretty/CBC2518T470M/KiCADv6/footprints.pretty") (options "") (descr ""))
 )

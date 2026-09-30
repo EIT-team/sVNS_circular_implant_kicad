@@ -6,4 +6,5 @@
 	(lib (name "SamacSys_Parts") (type "EAGLE") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/SamacSys_Parts.lbr") (options "") (descr ""))
 	(lib (name "N2510-6002RB") (type "EAGLE") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/N2510-6002RB.lbr") (options "") (descr ""))
 	(lib (name "M50-3631042") (type "EAGLE") (uri "C:/Users/edvar/OneDrive - University College London/MRes sVNS project/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/LIB_M50-3631042/M50-3631042.lbr") (options "") (descr ""))
+	(lib (name "2026-09-23_10-26-54") (type "KiCad") (uri "${KIPRJMOD}/sVNS_15chan_circular_antenna_board.pretty/CBC2518T470M/KiCADv6/2026-09-23_10-26-54.kicad_sym") (options "") (descr ""))
 )
