@@ -78,10 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "extra_footprint|114469800|106205400|34f4d0d2-d4ca-46d4-9ff3-d4c77d3fb53e|00000000-0000-0000-0000-000000000000",
-          "NFC antenna"
-        ],
-        [
           "extra_footprint|99490000|156293333|eddb70ce-8f70-4a79-998a-d2cb44d092c1|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -106,8 +102,8 @@
           "Modified the courtyard"
         ],
         [
-          "lib_footprint_mismatch|114201942|105937543|34f4d0d2-d4ca-46d4-9ff3-d4c77d3fb53e|00000000-0000-0000-0000-000000000000",
-          "Custom NFC antenna"
+          "lib_footprint_mismatch|114160751|106418457|34f4d0d2-d4ca-46d4-9ff3-d4c77d3fb53e|00000000-0000-0000-0000-000000000000",
+          "Custom antenna"
         ],
         [
           "lib_footprint_mismatch|117670000|132198578|3fd43ee1-aed8-4ec3-a42a-8190a632dc94|00000000-0000-0000-0000-000000000000",
@@ -134,8 +130,36 @@
           "Thermal pad"
         ],
         [
+          "shorting_items|111829054|120893406|2eda6e14-8579-4a9d-8e06-c38ba1303660|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
+          "Pad placed on purpose"
+        ],
+        [
+          "shorting_items|113825036|121090884|6f815bd2-0fb4-4c01-b2ac-711dfcb86127|a3ba2388-6b95-470c-b9f3-d2192c1f95c6",
+          "Pad placed on purpose"
+        ],
+        [
+          "solder_mask_bridge|111829054|120893406|2eda6e14-8579-4a9d-8e06-c38ba1303660|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
+          ""
+        ],
+        [
+          "solder_mask_bridge|113825036|121090884|a3ba2388-6b95-470c-b9f3-d2192c1f95c6|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
+          "Pad placed on purpose"
+        ],
+        [
           "unconnected_items|106190000|133540000|F.Cu|4|5d987283-8991-48c3-a056-856b0ddb062d|453bdb23-7739-4428-85dd-fba98f68ee71",
           "Antenna pins - connected to cusrom NFC footprint"
+        ],
+        [
+          "unconnected_items|112330000|127810000|F.Cu|4|0cf25cb5-b31d-481e-a637-c4e4657848ed|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
+          "To be connected by the user"
+        ],
+        [
+          "unconnected_items|114428608|113650600|F.Cu|4|0c434cff-7e1f-4ff2-93e9-8554cdf3fa40|08098ac5-981b-49a6-923b-f4e4d13dae57",
+          "To be connected by the user"
+        ],
+        [
+          "unconnected_items|114428608|121150600|F.Cu|4|06e686cd-5a9f-4633-86e5-86825bf10057|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
+          "To be connected by the user"
         ]
       ],
       "meta": {
