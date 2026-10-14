@@ -78,12 +78,36 @@
       ],
       "drc_exclusions": [
         [
-          "extra_footprint|99490000|156293333|eddb70ce-8f70-4a79-998a-d2cb44d092c1|00000000-0000-0000-0000-000000000000",
+          "clearance|113825036|121090884|6f815bd2-0fb4-4c01-b2ac-711dfcb86127|a3ba2388-6b95-470c-b9f3-d2192c1f95c6",
+          "Pad for the antenna track"
+        ],
+        [
+          "lib_footprint_issues|101130000|158116667|257073b4-4466-438f-9fc4-581e21630d4f|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|101130000|158116667|257073b4-4466-438f-9fc4-581e21630d4f|00000000-0000-0000-0000-000000000000",
-          "Normal 1x01 footprint"
+          "lib_footprint_issues|103210000|159940000|3ec1fb4d-1986-4ac5-8311-1b10ad11c5e6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|108928608|106650600|ce06b26d-bd92-4d1a-9832-23d8b721cba7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|115240000|143380000|a05234d1-de57-4afe-8b3f-396f8bd2df1a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|117928608|106650600|224ce4e1-e354-4147-917b-f618ce1a4ae1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|97670000|154470000|2ab4bea1-76e9-434d-a479-b1df98bf4220|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|99490000|156293333|eddb70ce-8f70-4a79-998a-d2cb44d092c1|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
           "lib_footprint_mismatch|102039548|155139548|9ad858c2-5294-401a-973c-f8f919442b3f|00000000-0000-0000-0000-000000000000",
@@ -134,10 +158,6 @@
           "Pad placed on purpose"
         ],
         [
-          "shorting_items|113825036|121090884|6f815bd2-0fb4-4c01-b2ac-711dfcb86127|a3ba2388-6b95-470c-b9f3-d2192c1f95c6",
-          "Pad placed on purpose"
-        ],
-        [
           "solder_mask_bridge|111829054|120893406|2eda6e14-8579-4a9d-8e06-c38ba1303660|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
           ""
         ],
@@ -146,20 +166,20 @@
           "Pad placed on purpose"
         ],
         [
-          "unconnected_items|106190000|133540000|F.Cu|4|1e9b83f4-511d-48c4-90ef-62561359ab44|50be6b63-79e2-478a-b35d-b7c00a893ef9",
-          "Antenna pins - connected to cusrom NFC footprint"
+          "unconnected_items|107007818|129882182|F.Cu|4|49c181ff-8b25-4e85-9493-b1f8816a6384|02f6ee01-0873-4fdd-9e6c-9bf5f4ef1f5c",
+          ""
         ],
         [
           "unconnected_items|112330000|127810000|F.Cu|4|0cf25cb5-b31d-481e-a637-c4e4657848ed|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
           "To be connected by the user"
         ],
         [
-          "unconnected_items|114428608|113650600|F.Cu|4|0c434cff-7e1f-4ff2-93e9-8554cdf3fa40|08098ac5-981b-49a6-923b-f4e4d13dae57",
+          "unconnected_items|114428608|113650600|F.Cu|4|a015dbf2-6d42-4cf5-bc8d-ae4a0b2fcf11|cb1c81e4-d81c-4dfa-ba68-a55d74a1fb1b",
           "To be connected by the user"
         ],
         [
           "unconnected_items|114428608|121150600|F.Cu|4|06e686cd-5a9f-4633-86e5-86825bf10057|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
-          "To be connected by the user"
+          ""
         ]
       ],
       "meta": {
@@ -244,7 +264,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.45,
@@ -337,6 +357,10 @@
         {
           "diameter": 0.45,
           "drill": 0.15
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
         },
         {
           "diameter": 0.6,
@@ -954,7 +978,7 @@
         "uuid": "f1f61f9b-48be-407e-8c80-4ca72006850a"
       }
     ],
-    "used_designators": "C6-8,C17-19,L2",
+    "used_designators": "C5-8,C10-11,C17-20,L2-3,R3-4,U5",
     "variants": []
   },
   "sheets": [
