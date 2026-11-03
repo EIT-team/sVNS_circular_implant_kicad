@@ -106,10 +106,6 @@
           ""
         ],
         [
-          "lib_footprint_issues|99490000|156293333|eddb70ce-8f70-4a79-998a-d2cb44d092c1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|102039548|155139548|9ad858c2-5294-401a-973c-f8f919442b3f|00000000-0000-0000-0000-000000000000",
           "Modified mousebites"
         ],
@@ -164,10 +160,6 @@
         [
           "solder_mask_bridge|113825036|121090884|a3ba2388-6b95-470c-b9f3-d2192c1f95c6|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
           "Pad placed on purpose"
-        ],
-        [
-          "unconnected_items|107007818|129882182|F.Cu|4|49c181ff-8b25-4e85-9493-b1f8816a6384|02f6ee01-0873-4fdd-9e6c-9bf5f4ef1f5c",
-          ""
         ],
         [
           "unconnected_items|112330000|127810000|F.Cu|4|0cf25cb5-b31d-481e-a637-c4e4657848ed|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
@@ -284,6 +276,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -295,6 +288,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -306,6 +300,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -763,6 +758,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -810,8 +806,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
