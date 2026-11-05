@@ -134,11 +134,11 @@
           ""
         ],
         [
-          "unconnected_items|106190000|133540000|F.Cu|4|98b2fa6f-8b13-44b6-8100-050181bae2b1|576411ca-22f8-43c7-a913-e0d6757671dc",
+          "unconnected_items|106190000|133540000|F.Cu|4|4da225d1-ce0c-47e6-a342-65049657d1df|c754c79f-1ad3-40e3-b78a-76842c15042a",
           "Antenna pins"
         ],
         [
-          "unconnected_items|112330000|127810000|F.Cu|4|b2883297-ca31-4654-966a-94253ff5ad7f|6f815bd2-0fb4-4c01-b2ac-711dfcb86127",
+          "unconnected_items|112330000|127810000|F.Cu|4|b2883297-ca31-4654-966a-94253ff5ad7f|12ca02cf-c99a-4229-b8b8-9bd5267d6bda",
           "Antenna pins"
         ],
         [
@@ -783,7 +783,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "svns_implant_gbr_30mm/",
+      "plot": "PCBway_05112026_circular_human_map/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
